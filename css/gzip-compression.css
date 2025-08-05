@@ -1,5 +1,9 @@
 * {
-    background-color: #fafdff !important;
+    /* Apply background color globally except to buttons and form controls */
+*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
+  background-color: #f7f7f7 !important;
+}
+!important;
 }
 .gzip_circle .c100{font-size: 91px !important;}
 .gzip_fsw{font-size: 16px;}

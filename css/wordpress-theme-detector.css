@@ -1,5 +1,9 @@
 * {
-    background-color: #fafdff !important;
+    /* Apply background color globally except to buttons and form controls */
+*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
+  background-color: #f7f7f7 !important;
+}
+!important;
 }
 .wptd .fs16{font-size: 16px;}
 .wptd .fs18{font-size: 18px;}

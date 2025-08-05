@@ -1,5 +1,9 @@
 * {
-    background-color: #fafdff !important;
+    /* Apply background color globally except to buttons and form controls */
+*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
+  background-color: #f7f7f7 !important;
+}
+!important;
 }
 .backmaker_h{height: 36px;}
 .cus_scrollbar.bm_scroll_h{height: 400px !important;}
