@@ -1,0 +1,13 @@
+* {
+    background-color: #d1dceb !important;
+}
+#online-ping-form .custom_sep{height: 50px;}
+.opwt_progress{height: 28px;}
+.opwt_res_head{font-size: 16px;}
+.opwt_progress .progress-bar{background: #1E70B9;font-size: 14px;}
+#opwt_results{font-size: 15px;}
+#opwt_results .site_head{font-size: 20px;}
+#opwt_results .clr_green{color: #0F804A;}
+.ping_res{height: 450px !important;}
+#online-ping-form .cus_select{background-position: 98% 50%;}
+.pingMore{}

@@ -1,0 +1,60 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;}
+.ip_res{font-size: 14px;font-weight: 600;}
+.ip_res .box_w1{
+    width: 33%;
+    position: relative;
+}
+.ip_res .box_w2{width: 12%;}
+.ip_res .box_w3{width: 16%;}
+.ip_res .box_w4{width: 27%;}
+.ip_res_media{
+    position: absolute;
+    width: 290px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0px 0px 2px 1px #E3E7ED;
+    display:none;
+    border-bottom: 3px solid #1E70B9;
+}
+.ip_res_media div:nth-child(odd){
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 15px !important;
+}
+.ip_res_media div:nth-child(even){
+    font-size: 14px;
+    font-weight: 600;
+}
+.da_btn{
+    width: 117px;
+    height: 28px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #1E70B9;
+}
+.dage_toggle{
+    background-image: url(../webimages/ip_address1.svg);
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #1E70B9;
+}
+.dage_rotate{transform: rotate(180deg);}
+.pl10 {padding-left: 10px !important;}
+.pa_url {width:86%;}
+@media only screen and (max-width: 767px) {
+    .ip_res .box_w1{width: 65%}
+    .ip_res .box_w2{width: 35%}
+    .ip_res .mdb{display: block !important;}
+    .ip_res .mdn{display: none !important;}
+    .ip_res_media{width: 260px;}
+    /* .ip_res .box_w1 .d-flex.align-items-center.pl10 {align-items: normal !important;} */
+    /* .ip_res .box_w1 .dage_toggle{height: 20px;} */
+}
+@media only screen and (max-width:340px){
+    .ip_res .box_w1 .dage_toggle{height:18px;}
+}

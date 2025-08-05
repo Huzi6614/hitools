@@ -1,0 +1,17 @@
+* {
+    background-color: #d1dceb !important;
+}
+.mybBult{
+    list-style:none;
+    padding-left: 0px;
+}
+.mybBult li:before {
+    content: "\2022";
+    color: #1E70B9;
+    margin-right: 5px;
+    font-size: 17px;
+    line-height: 0px;
+}
+.tool_heading {
+    padding: 10px 0;
+}

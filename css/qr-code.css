@@ -1,0 +1,12 @@
+* {
+    background-color: #d1dceb !important;
+}
+#qr-code-form .nav-link{
+    min-width: 80px;
+    height: 40px;
+    font-size: 14px;
+}
+#qr-code-form .nav-link.active{
+    background-color: #1E70B9 !important;
+    color: #fff !important;
+}

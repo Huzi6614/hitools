@@ -1,0 +1,13 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ss_progress{height: 24px;background-color:#c4c5c6;}
+.ss_progress .progress-bar{background:#1E70B9;}
+.ss_progress .progress-bar span{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+}
+@media only screen and (max-width:640px){
+    .ss_progress{position: relative;}
+}

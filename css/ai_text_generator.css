@@ -1,0 +1,51 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ai_writer{height:310px;display:none;}
+.tox.tox-tinymce{margin-top:20px;}
+.toolArea{/*width:1120px;*/max-width: 1120px;box-shadow: 0px 20px 200px 100px #00000014;}
+.tox .tox-tbtn {margin:3px !important;}
+.tox .tox-statusbar {display:none !important;}
+.tox-toolbar.tinymecdark_bg_n {background: #F5F6FB !important;border-bottom: 1px solid #CFD9E4;}
+body .tox-split-button.tinymec_buttons_bg {height:35px;}
+.toolInput {background: #fff;border-top-right-radius: 6px;border-bottom-right-radius: 6px;}
+.enterIdea{margin-top:15px;margin-bottom:12px;font-weight:700;}
+.inputTitle {display: flex;}
+.inputTitle .tool_btn{
+    background: #0A57AE url(../webimages/itBtn_icon.png);
+    color: #fff;
+    border: none;
+    padding:12px 17px 12px 42px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+.inputTitle {display: flex;background: #F5F6FB;padding: 10px;border: 1px solid #E3E7ED;margin-bottom: 15px;}
+.inputTitle input[type="text"] {background: transparent;border: none;width:80%;}
+.pcn_bg {min-height: auto;background-size: 100% 495px;background-color: #E9EBED;background-position: center -60px;}
+.optoins {background: #F5F6FB;padding:15px;border-top-left-radius:6px;border-bottom-left-radius:6px;}
+.chosehead {font-size: 18px;font-weight: 600;margin-bottom: 10px;}
+.citem_list {display: flex;gap: 15px;flex-wrap: wrap;}
+.citem_list .radio_button {/*width:31.2%;*/max-width:166px;#fff;border: 1px solid #CFD9E4;padding: 11px;cursor: pointer;margin-bottom: 0;}
+span.achor_heading {font-weight:600;margin-left:5px;}
+label.radio_button.active {border-color: #564190;filter:drop-shadow(0 5px 10px #D3D3D3);}
+.citem_list .radio_button p {font-size: 13px;line-height: normal;margin-bottom: 0;margin-top: 10px;}
+img.pro_crown_icon {filter: drop-shadow(0 5px 10px #D3D3D3);}
+.tool_area {
+    margin-top: 10px;
+    /* box-shadow: 0px 20px 200px 100px #00000014; */
+
+}
+.clear-img{position:relative;top:-30px;display:none;float:right;cursor:pointer;}
+.tox-tinymce{height: 438px !important;}
+@media only screen and (max-width: 767px) {
+.citem_list .radio_button{max-width: 136px;}
+body .tox-split-button.tinymec_buttons_bg{margin: 8px 3px !important;}
+}
+.button_blink{animation: shadow-pulse 1s infinite;}
+@keyframes shadow-pulse{ 
+    0%{box-shadow:0 0 0 0px rgba(30, 112, 185);}
+    100%{box-shadow:0 0 0 15px rgba(0, 0, 0, 0);}
+}
+body[data-theme="dark"] .tox .tox-collection__item{color:#fff}
+#user_input::placeholder{color: #000 !important;}

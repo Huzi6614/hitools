@@ -1,0 +1,28 @@
+* {
+    background-color: #d1dceb !important;
+}
+.dc_sty .dc_sty_w{width: 65%;min-width: 415px;}
+.pfc_res {background: #202223;}
+.pfc_res .pfc_blr{
+    border-left:1px solid #515151;
+}
+.reset_btn {
+    width:120px;
+    height:46px;
+    background-color: #EA5050;
+}
+#orginal_value::placeholder, #discount_value::placeholder{
+    font-weight: normal;
+  }
+@media only screen and (max-width: 767px) {
+    .dc_sty .dc_sty_w{min-width: 100%;}
+    .pfc_res .pfc_blr{
+        border-left:none;
+        border-top:1px solid #515151;
+    }
+    button#reset_discountCal {
+        width: 272px;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+}

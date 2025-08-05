@@ -1,0 +1,16 @@
+* {
+    background-color: #d1dceb !important;
+}
+.dc_sty .dc_sty_w{width: 65%;min-width: 415px;}
+.pfc_res {background: #202223;}
+.pfc_res .pfc_blr{
+    border-left:1px solid #515151;
+}
+.sepration_line{margin-top: 39px;}
+@media only screen and (max-width: 767px) {
+    .dc_sty .dc_sty_w{min-width: 100%;}
+    .pfc_res .pfc_blr{
+        border-left:none;
+        border-top:1px solid #515151;
+    }
+}

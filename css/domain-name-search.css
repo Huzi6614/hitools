@@ -1,0 +1,13 @@
+* {
+    background-color: #d1dceb !important;
+}
+.dname_inp{	width: 75%;}
+.dname_select{width: 180px;height: 48px;}
+.dn_green{color: #1B914B}
+.dn_red{color: #E2373F}
+@media only screen and (max-width: 767px){
+	.dname_inp, .dname_select{width: 100%;}
+	.dname_select{margin-left: 0px !important;}
+	.dname_mdb{display: block !important;}
+	.dn_mps{padding: 0px !important}
+}

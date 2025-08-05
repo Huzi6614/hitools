@@ -1,0 +1,25 @@
+* {
+    background-color: #d1dceb !important;
+}
+.aca_actions_btns{
+    padding: 0px 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin:7px 2px;
+}
+
+.aca_input_border{
+    border:1px solid #E3E7ED;
+}
+
+.aca_formater_siderbar{
+    background: #F6F8FA;
+}
+.html_formater .ace_gutter-cell.ace_info{
+    background: none !important;
+}
+@media screen and (max-width:640px){
+    img#fullScreen, .ace_mobile-menu{
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+* {
+    background-color: #d1dceb !important;
+}
+.cpmc_sty{width: 70%;min-width: 415px;}
+.pfc_res {background: #202223;}
+.pfc_res .pfc_blr{
+    border-left:1px solid #515151;
+    border-right:1px solid #515151;
+}
+.reset_btn {width:120px;height:46px;background-color: #EA5050;}
+span.amount, .cpm_res, .impressions{word-break: break-all;line-height: normal;}
+@media only screen and (max-width: 767px) {
+    .cpmc_sty{min-width: 100%;}
+    .pfc_res .pfc_blr{
+        border-left:none;
+        border-right:none;
+        border-top:1px solid #515151;
+        border-bottom:1px solid #515151;
+    }
+    .reset_btn {
+        width: 272px;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+}

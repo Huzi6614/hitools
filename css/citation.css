@@ -1,0 +1,460 @@
+* {
+    background-color: #d1dceb !important;
+}
+.wrap {
+    display: inline-block;
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 25px;
+    font-weight: 600;
+}
+.wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.wrap input:checked ~ .checkmark {
+    background: none;
+    border: 1px solid #d4ccc7;
+}
+.wrap input:checked ~ .checkmark:after {
+    display: block;
+}
+.wrap .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background:#1E70B9;
+    position: absolute;
+    content: "";
+}
+.citRadio h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:15px;
+}
+.citRadio {
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+div.outer_tabs {
+    clear: both;
+}
+.form-control{font-size:16px;}
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+	}
+
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  width: 140px;
+	  background-color: #555;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px;
+	  position: absolute;
+	  z-index: 1;
+	  bottom: 150%;
+	  left: 50%;
+	  margin-left: -75px;
+	  opacity: 0;
+	  transition: opacity 0.3s;
+	}
+
+	.tooltip .tooltiptext::after {
+	  content: "";
+	  position: absolute;
+	  top: 100%;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: #555 transparent transparent transparent;
+	}
+
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	  opacity: 1;
+	}
+	/* The container */
+	.wrap {
+	  display: inline-block;
+	  position: relative;
+	  padding: 0 30px;
+      margin-bottom: 5px;
+	  cursor: pointer;
+	  font-size: 16px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  line-height: 25px;
+      font-weight: 600;
+	}
+	/* Hide the browser's default radio button */
+	.wrap input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	}
+
+	/* Create a custom radio button */
+	.checkmark {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 25px;
+	  width: 25px;
+	  background-color: #fff;
+	  border-radius: 50%;
+	}
+
+	/* On mouse-over, add a grey background color */
+	.wrap:hover input ~ .checkmark {
+	  background-color: #fff;
+	}
+
+	/* When the radio button is checked, add a blue background */
+	.wrap input:checked ~ .checkmark {
+	background:#fff;
+	  border: 1px solid #d4ccc7;
+	}
+
+	/* Create the indicator (the dot/circle - hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+
+	/* Show the indicator (dot/circle) when checked */
+	.wrap input:checked ~ .checkmark:after {
+	  display: block;
+	}
+
+	/* Style the indicator (dot/circle) */
+	.wrap .checkmark:after {
+	 	top: 6px;
+	    left: 6px;
+	    width: 12px;
+	    height: 12px;
+	    border-radius: 50%;
+	    background: #1E70B9;
+	}
+	.form-control {
+	    height: 44px;
+	    color: #555;
+	    border: 1px solid #efe7e2;
+	    border-radius: 0;
+	    box-shadow:none;
+	}
+	.dropdown-menu {top:47px;min-width:187px;}
+	.dropdown-menu>li>a {
+        font-weight:normal;
+        font-size:16px;
+        display:block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+    }
+    .dropdown-menu>li>a:hover{
+        background: #E3E7ED !important;
+        text-decoration: none;
+    }
+    div.outer_tabs > .nav-tabs .dropdown-menu li{padding-right: 0;}
+	.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{background-color:transparent;}
+	.dropdown-menu a.active,.dropdown-menu a.active:focus,.dropdown-menu a.active:hover{background-color:transparent;}
+	.main_things {padding-bottom:20px;display:flex;align-items:center;}
+	.main_things h3 {font-size: 18px;float: left;margin-right: 20px;} 
+    .try_full_width{width:100%;box-shadow:0px 0px 18px 0px #0000001f;border-radius:4px;padding:50px 100px 100px;margin-bottom:50px;background:#fff;}
+    div.outer_tabs{clear:both;}
+    div.outer_tabs > .nav-tabs{display:block;text-align:left;border: none;}
+	div.outer_tabs > .nav-tabs :not(:last-child){padding-right:6px;}
+    div.outer_tabs > .nav-tabs>li {float:left;}
+    div.outer_tabs > .nav-tabs>li>a {border:1px solid #efe7e2;text-align:center;border-bottom:none;border-radius:0;color:#000;margin:0;background-color: #fff;
+        border: 1px solid #E3E7ED;}
+    div.outer_tabs > .nav-tabs>li a.active, 
+    div.outer_tabs > .nav-tabs>li a.active:focus, 
+    div.outer_tabs > .nav-tabs>li a.active:hover{
+    	color:#000;background-color:#E3E7ED !important;border:1px solid #E3E7ED;
+    }
+    div.outer_tabs > .nav>li>a:focus, div.outer_tabs > .nav>li>a:hover {background-color:#E3E7ED;color:#000;border:1px solid #E3E7ED;text-decoration:none;}
+    div.outer_tabs > .tab-content{padding:30px 30px 0;overflow:hidden;background-color:#fff;border:1px solid #E3E7ED;clear: both;}
+    div.outer_tabs > .nav .open>a, div.outer_tabs > .nav .open>a:focus, div.outer_tabs > .nav .open>a:hover{
+	    background-color: #ef7d4e;
+	    height: 45px;
+	    width: 100%;
+	    font-size:14px;
+	    letter-spacing: normal;
+	    border-color: #ef7d4e;
+	    border-radius: 0;
+	    padding:10px 10px 10px 15px !important;
+	}
+	div.outer_tabs .btn.active, div.outer_tabs .btn:active{box-shadow: none;}
+
+	div.outer_tabs > .nav-tabs>li>a.website,div.outer_tabs > .nav-tabs>li>a.book,div.outer_tabs > .nav-tabs>li>a.journal,div.outer_tabs > .nav-tabs>li>a.video,div.outer_tabs > .nav-tabs>li>a.dropdown-toggle{
+		background-position: 8% 10px; background-repeat: no-repeat;
+	}
+    div.inner_tab {background:#f6f6f6;padding:30px 0 10px;}
+    div.inner_tab .tab-content{overflow:hidden;border:1px solid #efe7e2;background:#fff;padding:25px;}
+    div.inner_tab .nav-tabs{border:none;}
+    div.inner_tab .nav-tabs>li>a {border:1px solid #efe7e2;border-radius:0;background:#e5e5e5;margin-right:10px;color:#000;padding:10px 35px;}
+    div.inner_tab .nav-tabs>li.active>a, div.inner_tab .nav-tabs>li.active>a:focus, div.inner_tab .nav-tabs>li.active>a:hover {
+    	color:#fff;
+    	background-color:#0a2e80;
+    	border-bottom:none;
+	}
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding:8px 16px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+    }
+    .nav-tabs li a span{
+        display: inline-block;
+        width:30px;
+        height:30px;
+        background-color: #E3E7ED;
+        border-radius: 40px;
+        margin-right:8px;
+    }
+    .nav-tabs li a.active span{
+        background-color: #1E70B9;
+    }
+    span.stab_1{
+        background-image:url(../webimages/tab_icon_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+    }
+    span.stab_2{
+        background-image:url(../webimages/tab_icon_2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 15px;
+    }
+    span.stab_3{
+        background-image:url(../webimages/tab_icon_3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 15px;
+    }
+    span.stab_4{
+        background-image:url(../webimages/tab_icon_4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+    }
+    .nav-tabs li .active span.stab_1,
+    div.outer_tabs > .nav>li>a:hover span.stab_1{
+        background-image:url(../webimages/tab_iconhover_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+    }
+    .nav-tabs li .active span.stab_2,
+    div.outer_tabs > .nav>li>a:hover span.stab_2{
+        background-image:url(../webimages/tab_iconhover_2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 15px;
+    }
+    .nav-tabs li .active span.stab_3,
+    div.outer_tabs > .nav>li>a:hover span.stab_3{
+        background-image:url(../webimages/tab_iconhover_3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 15px;
+    }
+    .nav-tabs li .active span.stab_4,
+    div.outer_tabs > .nav>li>a:hover span.stab_4{
+        background-image:url(../webimages/tab_iconhover_4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+    }
+    .nav-tabs .dropdown .dropdown-toggle::after{
+        background-image:url(../webimages/dropdown_icon.png);
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        background-size: 16px;
+        width: 28px;
+        height: 28px;
+        border: 0;
+        border-radius: 40px;
+        background-color: #E3E7ED;  
+        margin-left: 8px;
+        margin-right: 5px;
+    }
+    div.outer_tabs > .nav>li>a:hover span{
+        background-color: #1E70B9;
+    }
+    div.outer_tabs > .nav li.dropdown .dropdown-toggle.active::after,
+    div.outer_tabs > .nav li.dropdown:hover .dropdown-toggle::after,
+    div.outer_tabs > .nav li.show .dropdown-toggle::after{
+        background-image: url(../webimages/dropdown_iconhover.png);
+        background-repeat: no-repeat;
+        background-position: center 11px;
+        background-size: 15px;
+        background-color: #1E70B9;
+    }
+    .inner_tab.output_tab ul.nav.nav-tabs li {
+        flex: 1;
+    }
+    .inner_tab.output_tab ul.nav.nav-tabs li a.active{
+        background-color: #E3E7ED;
+    }
+    .inner_tab.output_tab ul.nav.nav-tabs li a{
+        display: block;
+        text-align: center;
+    }
+    .inner_tab.output_tab ul.nav.nav-tabs li a:hover{text-decoration:none;}
+    .inner_tab.output_tab ul.nav.nav-tabs li a{
+        margin-right: 0px;
+        background: #fff;
+        color:#000;
+        border-bottom: 0;
+    }
+    div.inner_tab .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    body div.result_outer button{
+        background: #1e70b9 url(../webimages/copyBtn.png);
+        background-repeat: no-repeat;
+        background-size: 22px;
+        background-position: 14px center;
+        padding: 12px 20px 12px 50px;
+        font-weight: bold;
+    }
+    
+
+
+	.check_btn{color: #fff;border: 0;}
+	#checkform input[type=radio]{width:20px;height:20px;}
+	.box {float:left;width:19%;margin-right:10px;}
+	div.boxWrap{display:flex;margin-bottom:20px;}
+    button.add_contributor {
+        background: #F6F8FA;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border: 1px solid #E3E7ED;
+        margin:0 auto 35px;
+        display: block;
+        font-weight: 700;
+    }
+    div.boxWrap .box:last-child {margin-right:0;}
+	button.add_contributor span {
+        font-weight: normal;
+        font-size: 40px;
+        border-radius: 100px;
+        color: #AEB6C1;
+        line-height: 20px;
+        text-align: center;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+        top: 5px;
+    }
+    button.cross {
+        position: absolute;
+        top: 45px;
+        right: -10px;
+        background: #1e70b9;
+        width: 20px;
+        height: 20px;
+        line-height:7px;
+        text-align: center;
+        color: #fff;
+        border-radius: 100px;
+        font-size: 18px;
+        padding:0px;
+        margin: 0;
+        border: none;
+    }
+    div.result_section,div.error_section{margin:0px 0 50px;}
+    div.result_section h3 ,div.error_section h3 { text-align:center;font-size:24px;color:#000;font-weight:bold; }
+    div.result_outer,div.error_outer {padding:35px; }
+    div.result_outer button,div.error_outer button { background:#1e70b9;padding:10px 20px;color:#fff;border:none;margin:40px auto 0;display:block; }
+    div.result_inner,div.error_inner {padding:45px;}
+    label.error {
+	    color: red;
+	    font-size: 1.2rem;
+	    display: block;
+	    margin-top: 5px;
+	}
+	input.error {
+	    border: 1px solid red;
+	    font-weight: 300;
+	}
+	#validation_error{top:31%;}
+	#validation_error button.close_m { background:none;border:none;margin:0;padding:0;float:right; }
+	#validation_error .modal-content { padding:20px;}
+	#validation_error button.x {font-size:24px;font-weight:bold;}
+	#validation_error button.continue {font-size:20px;color:#1e70b9;}
+	#validation_error h3 {font-size:24px;font-weight:bold;color:#0a2e80;}
+	#validation_error p {font-size:20px;padding:15px 0;}
+    .tab-pane.fade:not(.show) {
+        opacity: 1;
+    }
+    .tab-content label{
+        font-weight:700;
+        display:block;
+        text-align:left;
+        font-size:16px;
+    }
+    a.btn.dropdown-toggle {
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+@media (max-width: 480px){
+    .main_things {display: block;text-align: center;}
+    .main_things h3 {float:none;margin:15px auto;text-align:center;}
+    .wrap {padding: 0 13px 0 34px;}
+    div.outer_tabs > .nav-tabs>li{float:none;margin-bottom:5px;display:inline-block;width:49%;}
+    div.outer_tabs > .nav-tabs li:nth-child(2),
+    div.outer_tabs > .nav-tabs li:nth-child(4){padding-right:0px;}
+    div.outer_tabs > .nav-tabs{padding-left:5px;text-align: center;}
+    div.boxWrap {display:block;text-align:center;}
+    .box {float: none;width: 45%;display:inline-block;margin:0 5px;}
+    div.outer_tabs > .tab-content{padding:30px 10px 0;}
+    div.boxWrap .box:last-child {width:92%;}
+    div.inner_tab .nav-tabs>li>a{padding:10px 0px;}
+    div.inner_tab .tab-content{padding:25px 10px;}
+    div.inner_tab .col-md-6{width: auto;float:none;}
+    .form-control{margin-bottom:12px;}
+    button.cross{top:10px;right: 10px;}
+    div.result_outer, div.error_outer{padding:15px;}
+    div.result_inner, div.error_inner{padding:25px;}
+    body div.result_outer button{margin-top:20px;}
+
+
+}

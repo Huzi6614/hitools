@@ -1,0 +1,36 @@
+* {
+    background-color: #d1dceb !important;
+}
+.tox-toolbar{
+    background: #F4F6F9 !important;
+    padding-bottom: 10px !important;
+}
+.tox-toolbar:first-child{
+    padding-top: 10px !important;
+}
+.tox-custom-editor{
+    border:0 !important;
+}
+.tox .tox-tbtn--enabled{
+    background: #c8cbcf !important;
+}
+.btn-radius{
+    border-radius: 0px !important;
+}
+.tox .tox-mbtn__select-label {
+    cursor: pointer !important;
+}
+
+.tox-tbtn:hover{
+    background:#DEE0E2 !important;
+}
+
+@media only screen and (max-width: 443px) {
+    /* #praphrse_tool{margin-left: -26px !important;} */
+}
+.input_sections{position:relative}
+#image_clear{
+    position: absolute;
+    right: 0px;
+    bottom: 19px;
+}

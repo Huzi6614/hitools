@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 18 13">
+  <g id="malaysia" transform="translate(0 -85.331)">
+    <rect id="Rectangle_160" data-name="Rectangle 160" width="18" height="13" transform="translate(0 85.331)" fill="#f0f0f0"/>
+    <g id="Group_608" data-name="Group 608" transform="translate(0 86.831)">
+      <rect id="Rectangle_161" data-name="Rectangle 161" width="18" height="1.5" fill="#d80027"/>
+      <rect id="Rectangle_162" data-name="Rectangle 162" width="18" height="1.5" transform="translate(0 3.325)" fill="#d80027"/>
+      <rect id="Rectangle_163" data-name="Rectangle 163" width="18" height="1.5" transform="translate(0 6.651)" fill="#d80027"/>
+      <rect id="Rectangle_164" data-name="Rectangle 164" width="18" height="1.5" transform="translate(0 9.976)" fill="#d80027"/>
+    </g>
+    <rect id="Rectangle_165" data-name="Rectangle 165" width="9" height="6.462" transform="translate(0 85.331)" fill="#0052b4"/>
+    <g id="Group_609" data-name="Group 609" transform="translate(2.557 86.74)">
+      <path id="Path_395" data-name="Path 395" d="M75.143,128.6a1.484,1.484,0,1,1,.706-2.789,1.826,1.826,0,1,0,0,2.611A1.477,1.477,0,0,1,75.143,128.6Z" transform="translate(-72.746 -125.29)" fill="#ffda44"/>
+      <path id="Path_396" data-name="Path 396" d="M123.436,147.545l.263.551.6-.137-.266.549.478.379-.6.134v.611l-.476-.382-.476.382v-.611l-.6-.134.478-.379-.266-.549.6.137Z" transform="translate(-120.622 -146.766)" fill="#ffda44"/>
+    </g>
+  </g>
+</svg>

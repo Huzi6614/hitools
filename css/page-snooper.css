@@ -1,0 +1,10 @@
+* {
+    background-color: #d1dceb !important;
+}
+.pgpre_res{
+	white-space:pre-line;
+	overflow-x:hidden;
+	font-size:15px;
+	height: 500px !important;
+}
+.pgpre_res code{font-family: 'Nunito Sans', sans-serif;}

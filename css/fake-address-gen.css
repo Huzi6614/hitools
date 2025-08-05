@@ -1,0 +1,35 @@
+* {
+    background-color: #d1dceb !important;
+}
+#fake_address{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem
+}
+
+.address_item{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: -1px;
+}
+.address_title{
+    font-weight: bold;
+    background-color: #F6F8FA;
+    border-right: 1px solid rgb(233, 233, 233);
+}
+.box_pad{
+    padding: 0.75rem 1.5rem;
+}
+
+.street,.city,.state.zipCode,.telephone,.mobile{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 767px){
+    .address_item {grid-template-columns: 35% 65%;}
+    .box_pad{padding-left: 0.7rem;}
+}
+.fag_btn{width:114px;height: 30px;font-size: 14px;justify-content: space-evenly;cursor: pointer;}
+.fag_btn:hover{background-color: #F6F8FA;border: 1px solid #E3E7ED;}
+.ccg_copy{background-image: url('../webimages/ccg_copy.svg');width: 18px;height: 18px;}

@@ -1,0 +1,4 @@
+* {
+    background-color: #d1dceb !important;
+}
+.input_section input::placeholder {color: #505050;}

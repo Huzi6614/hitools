@@ -1,0 +1,22 @@
+* {
+    background-color: #d1dceb !important;
+}
+#xml_res .cus_scrollbar{
+	resize: none;
+	height: 285px !important;
+}
+.cus_select{height: 48px}
+.xml_list li{
+	display: inline-flex;
+    align-items: baseline;
+}
+.xml_list li::before {
+	content: "•";
+	color: #1E70B9;
+	font-size: 20px;
+	margin-right: 15px;
+}
+#mapFre, #mapPri{background-position: 93% 50%;}
+@media only screen and (max-width: 767px) {
+	select.cus_select{background-position: 93% 50%;}
+}

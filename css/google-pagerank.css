@@ -1,0 +1,24 @@
+* {
+    background-color: #d1dceb !important;
+}
+.gprc_res .gp_rank{
+	min-width: 30px;
+	height: 30px;
+	background: #E4E8EA;
+}
+.gprc_res .progress{height: 30px;}
+.gprc_res .h50{min-height: 50px;}
+@media only screen and (max-width: 767px) {
+	.gprc_res .mbb{
+		border-bottom: none !important;border-right: 1px solid #E3E7ED !important;
+	}
+	.gprc_res .mbr{
+		border-right: none !important;border-bottom: 1px solid #E3E7ED !important;
+	}
+}
+/*.gprc_res span{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 395px;
+}*/

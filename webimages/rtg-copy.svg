@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_3739" data-name="Group 3739" transform="translate(-1121 -776)">
+    <g id="Rectangle_517" data-name="Rectangle 517" transform="translate(1121 776)" fill="#fff" stroke="#ddd" stroke-width="1">
+      <rect width="28" height="28" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" fill="none"/>
+    </g>
+    <g id="copy" transform="translate(1107.653 781)">
+      <path id="Path_1792" data-name="Path 1792" d="M33.933,0H24.771a2.423,2.423,0,0,0-2.414,2.426v.3h-1.6a2.423,2.423,0,0,0-2.414,2.426V15.574A2.423,2.423,0,0,0,20.761,18h9.162a2.422,2.422,0,0,0,2.414-2.426v-.3h1.6a2.423,2.423,0,0,0,2.414-2.426V2.426A2.422,2.422,0,0,0,33.933,0ZM30.78,15.574a.86.86,0,0,1-.857.861H20.761a.86.86,0,0,1-.857-.861V5.149a.86.86,0,0,1,.857-.861h9.162a.86.86,0,0,1,.857.861V15.574Zm4.01-2.723a.86.86,0,0,1-.857.861h-1.6V5.149a2.423,2.423,0,0,0-2.414-2.426H23.914v-.3a.86.86,0,0,1,.857-.861h9.162a.86.86,0,0,1,.857.861V12.851Z" transform="translate(0)" fill="#383838"/>
+    </g>
+  </g>
+</svg>

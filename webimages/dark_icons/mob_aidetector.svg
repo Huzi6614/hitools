@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="AI_Detector" data-name="AI Detector" transform="translate(0 0)">
+    <line id="Line_566" data-name="Line 566" x2="20" transform="translate(0.5 8.542)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_567" data-name="Line 567" x2="20" transform="translate(0.5 12.458)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_568" data-name="Line 568" y1="20" transform="translate(8.542 0.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_569" data-name="Line 569" y1="20" transform="translate(12.458 0.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Rectangle_22660" data-name="Rectangle 22660" d="M2.9,0H9.96a2.9,2.9,0,0,1,2.9,2.9V9.958a2.9,2.9,0,0,1-2.9,2.9H2.9A2.9,2.9,0,0,1,0,9.959V2.9A2.9,2.9,0,0,1,2.9,0Z" transform="translate(4.072 4.282)" fill="#202223" stroke="#fff" stroke-width="1"/>
+    <path id="Rectangle_22661" data-name="Rectangle 22661" d="M2.9,0H9.96a2.9,2.9,0,0,1,2.9,2.9V9.958a2.9,2.9,0,0,1-2.9,2.9H2.9A2.9,2.9,0,0,1,0,9.959V2.9A2.9,2.9,0,0,1,2.9,0Z" transform="translate(4.072 4.282)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_13876" data-name="Path 13876" d="M15.627,20.82V16.551a1.423,1.423,0,1,1,2.846,0V20.82" transform="translate(-7.641 -7.405)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_570" data-name="Line 570" x2="2.846" transform="translate(7.986 11.275)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_571" data-name="Line 571" y2="5.833" transform="translate(12.708 7.583)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_13877" data-name="Path 13877" d="M10.85,16.161a4.821,4.821,0,1,0,4.821-4.821,4.821,4.821,0,0,0-4.821,4.821" transform="translate(-5.265 -5.514)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_572" data-name="Line 572" x1="4.132" y1="4.132" transform="translate(13.752 13.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

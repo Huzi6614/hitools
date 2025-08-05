@@ -1,0 +1,14 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;}
+.ip_res{font-size: 14px;font-weight: 600;}
+.ip_res .box_w1{width: 8%;}
+.ip_res .box_w2{width: 35%;}
+.ip_res .box_w3{width: 19%;}
+.exp_rclr{color: #ea5050}
+.exp_gclr{color: #55B844}
+.tool_heading { margin-bottom: 20px !important;}
+@media only screen and (max-width: 767px) {
+    .scroll_w{width: 750px;}
+}

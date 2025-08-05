@@ -1,0 +1,19 @@
+* {
+    background-color: #d1dceb !important;
+}
+.input_section textarea::placeholder {
+  color: #C9D0DB;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 120px;
+}
+.cus_scrollbar{
+  height: 250px !important;
+}
+.sample_button{
+    background-color: #1E70B9;
+}
+#output_res{word-break: break-all;}
+@media only screen and (max-width: 767px) {
+  .input_section textarea::placeholder {padding-top: 98px;}
+}

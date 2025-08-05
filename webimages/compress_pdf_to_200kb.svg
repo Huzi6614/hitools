@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.25" height="36" viewBox="0 0 27.25 36">
+  <g id="Group_130" data-name="Group 130" transform="translate(-522.635 -724.267)">
+    <g id="Group_114" data-name="Group 114" transform="translate(-397.234 841.854)">
+      <g id="Group_29" data-name="Group 29">
+        <path id="Path_23" data-name="Path 23" d="M944.119-82.087h-21.25a2.5,2.5,0,0,1-2.5-2.5v-30a2.5,2.5,0,0,1,2.5-2.5h14.694a2.5,2.5,0,0,1,1.768.732l6.556,6.556a2.5,2.5,0,0,1,.732,1.768v23.444A2.5,2.5,0,0,1,944.119-82.087Z" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Path_24" data-name="Path 24" d="M936.984-113.7v6.25h6.25" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Group_115" data-name="Group 115" transform="translate(-397.234 841.854)">
+      <line id="Line_26" data-name="Line 26" y2="11.52" transform="translate(926.944 -117.087)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_27" data-name="Line 27" x2="3" transform="translate(925.444 -115.545)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_28" data-name="Line 28" x2="3" transform="translate(925.444 -113.545)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_29" data-name="Line 29" x2="3" transform="translate(925.444 -111.545)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_30" data-name="Line 30" x2="3" transform="translate(925.444 -109.545)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_25" data-name="Path 25" d="M926.944-104.59h0a1.575,1.575,0,0,1-1.575-1.575v-1.13a.25.25,0,0,1,.25-.25h2.65a.25.25,0,0,1,.25.25v1.13A1.575,1.575,0,0,1,926.944-104.59Z" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <text id="_200KB" data-name="200KB" transform="translate(526.782 756.218)" fill="#1e70b9" font-size="5.89" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800"><tspan x="0" y="0">200KB</tspan></text>
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="19.442" height="8.638" rx="1.38" transform="translate(526.558 739.926)" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_116" data-name="Group 116" transform="translate(-397.234 841.854)">
+      <path id="Path_26" data-name="Path 26" d="M928.375-100.3H926.76a.5.5,0,0,0-.5.5v4.391a.5.5,0,0,0,.5.495.49.49,0,0,0,.495-.495v-1.239h1.014c1.3,0,2.148-.722,2.148-1.839V-98.5A1.811,1.811,0,0,0,928.375-100.3Zm-.077,2.746h-1.043v-1.831H928.3c.7,0,1.105.331,1.105.908v.015C929.4-97.922,928.96-97.557,928.3-97.557Z" fill="#1e70b9"/>
+      <path id="Path_27" data-name="Path 27" d="M933.3-100.3h-1.5a.5.5,0,0,0-.5.5v4.346a.5.5,0,0,0,.5.5h1.5a2.672,2.672,0,0,0,2.842-2.676v-.016A2.665,2.665,0,0,0,933.3-100.3Zm1.8,2.691a1.678,1.678,0,0,1-1.8,1.746H932.3v-3.522H933.3a1.7,1.7,0,0,1,1.8,1.761Z" fill="#1e70b9"/>
+      <path id="Path_28" data-name="Path 28" d="M940.786-99.388a.458.458,0,0,0,.457-.458.457.457,0,0,0-.457-.457h-3.079a.5.5,0,0,0-.5.5v4.391a.494.494,0,0,0,.5.495.49.49,0,0,0,.5-.495V-97.1h2.244a.458.458,0,0,0,.458-.458.458.458,0,0,0-.458-.458H938.2v-1.37Z" fill="#1e70b9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+* {
+    background-color: #d1dceb !important;
+}
+.video_downloader{line-height: normal;}
+.video_downloader img{
+	width: 380px;
+    height: 188px;
+}
+#dwn_btn{
+    position: absolute;
+    right: 6px;
+    top: 40px;
+    display:none;
+    background-color: #1e70b9;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 7px;
+    cursor: pointer;
+}

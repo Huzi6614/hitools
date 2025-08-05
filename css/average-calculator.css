@@ -1,0 +1,21 @@
+* {
+    background-color: #d1dceb !important;
+}
+.add_course{
+    width: 128px;
+    height: 34px;
+    background-color: #EA5050;
+}
+.ac_mean_type {
+    background-color: #E3E7ED;
+}
+.ac_sty img{
+    position: absolute;
+    right: 25px;
+    top: 16px;
+}
+.apndInput {
+    padding-right: 40px !important;
+}
+@media only screen and (max-width: 767px) {
+}

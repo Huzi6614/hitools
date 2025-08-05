@@ -1,0 +1,23 @@
+* {
+    background-color: #d1dceb !important;
+}
+.c100.ss_chart1{font-size: 213px !important;}
+.c100.ss_chart2{font-size: 168px !important;}
+.c100.ss_chart3{font-size: 131px !important;}
+.c100.ss_chart4{font-size: 101px !important;}
+.ss_chart1, .ss_chart2, .ss_chart3, .ss_chart4{background-color: #E3E7ED !important;}
+.ss_chart2, .ss_chart3, .ss_chart4{position: absolute !important;}
+.ss_chart .c100:hover:after{ top: 0.08em !important; left: 0.08em !important; width: 0.84em !important; height: 0.84em !important;}
+.fn_circle {width: 14px;height: 14px;border: 3px solid;}
+.fn_circle.br_clri {border-color: #4267B2;}
+.fn_circle.br_clrb {border-color: #1DA1F2;}
+.fn_circle.br_clrd {border-color: #007BB5;}
+.fn_circle.br_clrm {border-color: #BD081C;}
+.ss_box1{width: 222px;}
+.ss_box2{width: 90px;}
+.ip_res_head{font-size: 16px;}
+.ip_res{font-size: 14px;padding-left: 20px !important;}
+@media only screen and (max-width: 767px) {
+	.ss_box1, .ss_box2{font-size: 12px;}
+	.ss_box2{text-align: right;}
+}

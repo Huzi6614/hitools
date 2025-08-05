@@ -1,0 +1,28 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px;}
+.ip_res{font-size: 14px;}
+.dage_toggle{
+    background-image: url(../webimages/ip_address1.svg);
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:7px;
+}
+.dage_rotate{transform: rotate(180deg);}
+.alexar_w{width: 121px;height: 75px;max-width: 45%;}
+.tool_heading{margin-bottom:22px;}
+.input_section{padding-bottom:30px !important;}
+@media only screen and (max-width: 767px) {
+    .alexa_graph_box{border-right: none;border-bottom: 1px solid #E3E7ED !important;}
+}
+@media only screen and (max-width:480px){
+    .alexar_w {
+        width: 100%;
+        max-width: 47%;
+        margin-right: 0 !important;
+        margin-left: 5px !important;
+    }
+}

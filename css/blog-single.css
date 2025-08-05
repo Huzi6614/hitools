@@ -1,0 +1,26 @@
+* {
+    background-color: #d1dceb !important;
+}
+.main_area_report{line-height: normal;}
+.main_area_report .blog_img{
+    width: 100%;
+}
+.main_area_report .recent_img{
+    min-width: 78px;
+    max-width: 78px;
+}
+.main_area_report textarea{height: 160px;resize: none;}
+.main_area_report .fs12{font-size: 12px;}
+.main_area_report .fs14{font-size: 14px;}
+.main_area_report .fs16{font-size: 16px;}
+.main_area_report .fs28{font-size: 28px;}
+.main_area_report .clr0162b8{color: #0162B8;}
+.main_area_report .clr505050{color: #505050;}
+.main_area_report h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+    .main_area_report .mdn{display: none;}
+}
+.desk_search{top:55px}

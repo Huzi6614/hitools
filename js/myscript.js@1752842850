@@ -1,0 +1,216 @@
+$(document).ready(function () {
+    $('.toast_cancel').click(function () {
+        $('.toast_msg').hide();
+    });
+    $('[data-toggle="tooltip"]').bttooltip(); // run tooltip
+});
+//cookie set and get function 
+function setCookie(name, value, Exp_minutes,path="path=/") {
+    var d = new Date();
+    d.setTime(d.getTime() + (Exp_minutes*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";"+path;
+}
+//scroll focus change 
+function result_focus(id){
+    var elemOff = $("#"+id).offset().top;
+    elemOff = elemOff-100;
+    $("html, body").animate({ scrollTop: elemOff }, 500);
+}
+function selectText(id){
+    window.getSelection().selectAllChildren(
+        document.getElementById(id)
+    );
+}
+function setTooltip(ev,message) {
+    $(ev)
+        .attr('data-original-title', message)
+            .bttooltip('show');
+}
+function hideTooltip(ev){
+    setTimeout(function() {
+        $(ev).bttooltip('hide').attr('data-original-title', $(ev).attr('data-name'));
+        $(ev).bttooltip('hide').attr('data-original-title', $(ev).attr('data-nameAttr'));
+    }, 1000);
+}
+function br2nl(str) {
+    return str.replace(/<br\s*\/?>/mg,"\n");
+}
+function remove_tags(html) {
+    html = html.replace(/<br>/g, "$br$");
+    html = html.replace(/(?:\r\n|\r|\n)/g, '$br$');
+    var tmp = document.createElement("DIV");
+    tmp.innerHTML = html;
+    html = tmp.textContent || tmp.innerText;
+    html = html.replace(/\s+/g,' ').trim();
+    html = html.replace(/\$br\$/g, "\n");
+    return html;
+}
+// clear elements text, value and html with tooltip status
+function clear_elements(_array,ev,tool_tip){
+    $.each(_array,function(key,value){
+        $.each(value,function(nested_key,nested_value){
+            if (key == 't') {
+                $('#'+nested_key).text(nested_value);
+            }else if(key == 'h'){
+                $('#'+nested_key).html(nested_value);
+            }else if(key == 'v'){
+                $('#'+nested_key).val(nested_value);
+            }
+        });
+    });
+    setTooltip(ev,tool_tip);
+    hideTooltip(ev);
+}
+//setup ajax header for 419 token
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+// light + dark theme function
+function theme_change_f(){
+    if ( $('#dark_theme').length === 0 ) {
+        var dark_mode_text=$('#theme_mode_text').attr('data-dark');
+        $('#theme_mode_text').text(dark_mode_text);
+        var theme_file=base_url+'/css/dark-theme.css';
+        var link='<link id="dark_theme" rel="stylesheet" href="'+theme_file+'">';
+        $('head').append(link);
+        $('body').attr('data-theme','dark');
+        setCookie('check_theme','dark',60*24*360);
+    } else {
+        var light_mode_text=$('#theme_mode_text').attr('data-light');
+        $('#theme_mode_text').text(light_mode_text);
+        setCookie('check_theme','dark',-0);
+        $('#dark_theme').remove();
+        $('body').attr('data-theme','light');
+    }
+}
+// show category dropdown function
+function show_all_tools(){
+    $('.all_tools_area').toggleClass('d-none d-flex');
+}
+//desktop search show
+var search_tools_array=new Array();
+var get_all_tools= 1;
+$('#desktop_toggle_search').click(function(){
+    $('.desk_search').slideToggle();
+    $('.desk_search input').focus();
+    if (get_all_tools == 1) {
+        var search_method=$('.blog_search').find('[name="search_type"]:checked').val();
+        if(!search_method){
+            search_method='tool';
+        }
+        if(typeof blog_search_active != 'undefined'){
+            search_method=blog_search_active;
+        }
+        $.post(base_url+'/search/', {blog:search_method}, function( data ){
+            data=$.parseJSON(data);
+            search_tools_array[0]=data;
+        });
+        get_all_tools=0;
+    }
+});
+$('.blog_search [name="search_type"],#search_type1,#search_type2').change(function(){
+    var search_method=$('.blog_search').find('[name="search_type"]:checked').val();
+    if(!search_method){
+        search_method='tool';
+    }
+    if(typeof blog_search_active != 'undefined'){
+        search_method=blog_search_active;
+    }
+    $.post(base_url+'/search/', {blog:search_method}, function( data ){
+        data=$.parseJSON(data);
+        search_tools_array[0]=data;
+    });
+});
+//dont hide some elemnt on spacific container
+$(document).click(function(e){
+    var container = $("#desktop_toggle_search,.desk_search,.search_output,#navb,button.navbar-toggler");
+    // mobile search cross icon click clear vaslue 
+    var container2 = $(".mob_search_img");
+    if (container2.is(e.target)){
+        $('#mob_cros_icon').val('');
+        $(".search_output").slideUp();
+        $(".search_output .row").html("");
+        return;
+    }
+    var container3 = $('.all_tools_area,[onclick="show_all_tools()"]');
+    if (!container3.is(e.target)){
+        $('.all_tools_area').addClass('d-none');
+        $('.all_tools_area').removeClass('d-flex');
+        return;
+    }
+    if(!$(e.target).is('roshu')){
+        if (!container.is(e.target) && container.has(e.target).length === 0){
+            $('.desk_search').hide();
+            $('.desk_search input').val('');
+            $('.search_output .row').html('');
+            $('.search_output,#desk_search').slideUp();
+            $('#navb').removeClass('show');
+            $('button.navbar-toggler').addClass('collapsed');
+            return;
+        }
+    }
+});
+//search result starts here
+$('[name="search_type"]').change(function(){
+    setTimeout(function(){
+        $('.search_inp').trigger('keyup');
+    },500);
+});
+$('#mob_checked [name="search_type"]').change(function(){
+    setTimeout(function(){
+        $('.mob_search_inp').trigger('keyup');
+    },500);
+});
+$('.search_inp,.mob_search_inp').keyup(function(){
+    if (get_all_tools == 1) {
+        var search_method=$('.blog_search').find('[name="search_type"]:checked').val();
+        if(!search_method){
+            search_method='tool';
+        }
+        if(typeof blog_search_active != 'undefined'){
+            search_method=blog_search_active;
+        }
+        $.post(base_url+'/search/', {blog:search_method}, function( data ){
+            data=$.parseJSON(data);
+            search_tools_array[0]=data;
+        });
+        get_all_tools=0;
+    }
+    var get_match = 0;
+    // var search_method=$(this).parent().find('[name="search_type"]:checked').val();
+    var search_method=$(this).parent().parent().find('[name="search_type"]:checked').val();
+    if(!search_method){
+        search_method='tool';
+    }
+    var v=$(this).val();
+    var search_type='d';
+    if($(this).hasClass('mob_search_inp')){
+        search_type='m';
+    }
+    $(".search_output .row,.sidebar_search_output .popular_tools").html("");
+    if (v.length > 1){
+        var search_counter_for_last = 0;
+        if(typeof blog_search_active != 'undefined'){
+            search_method=blog_search_active;
+        }
+        $.each(search_tools_array[0], function(i, item){
+            ++search_counter_for_last;
+            if(get_match > 6){
+                return false;
+            }
+            
+            if(search_method == 'blog'){
+                var res=item.p_title.toLowerCase();
+                if(res.match(v.toLowerCase())){
+                    ++get_match;
+                    var ad_profile_info=JSON.parse(item.ad_profile_info);
+                    var admin_name=ad_profile_info.display_name;
+                    var admin_pic=ad_profile_info.profile_pic;
+                    var match=res.replace(new RegExp(v, "ig"),'<b>'+v.toLowerCase()+'</b>');
+                    if(search_type == 'd'){
+                        $(".search_output .row").append('<div class="col-md-12 py-2"><img src="https://cdn.hitools.space/admin-images/'+admin_pic+'" alt="'+admin_name+'" class="img-fluid aurthor_img"><a href="'+base_url+'blog/'+item.p_link+'" class="icon_sty px-1">'+match+'</a></div>');
+                    }else{
+                        $(".mob_search .search_output .row").append('<div class="col-md-12 py-2 d-flex"><img src="https://cdn.hitools.space/admin-images/'+admin_pic+'" alt="'+admin_name+'" class="img-fluid aurthor_img"><a href="'+base_url+'blog/'+item.p_link+'" class=

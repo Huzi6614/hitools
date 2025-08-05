@@ -1,0 +1,12 @@
+* {
+    background-color: #d1dceb !important;
+}
+.meta_title{font-size: 16px;}
+.clr_1e70b9{color: #1E70B9}
+.clr_ea5050{color: #EA5050}
+.meta_desc div:nth-child(even){font-weight: 600;}
+@media only screen and (max-width: 767px) {
+	.meta_desc .mptn{padding-top: 0px !important;}
+	.meta_desc .mpbn{padding-bottom: 0px !important;}
+	.meta_desc.mb-4{margin-bottom: 10px !important;}
+}

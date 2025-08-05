@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.706" height="23.668" viewBox="0 0 28.706 23.668">
+  <g id="d-website-tracking-tools" transform="translate(0.5 0.5)" style="isolation: isolate">
+    <g id="Group_1481" data-name="Group 1481" transform="translate(0 0)">
+      <rect id="Rectangle_351" data-name="Rectangle 351" width="27.706" height="22.668" rx="2" fill="#2f3133" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="Group_1482" data-name="Group 1482" transform="translate(1.668 1.672)">
+      <circle id="Ellipse_57" data-name="Ellipse 57" cx="0.558" cy="0.558" r="0.558" fill="#202223"/>
+      <circle id="Ellipse_58" data-name="Ellipse 58" cx="0.558" cy="0.558" r="0.558" transform="translate(2.232)" fill="#202223"/>
+      <circle id="Ellipse_59" data-name="Ellipse 59" cx="0.558" cy="0.558" r="0.558" transform="translate(4.463)" fill="#202223"/>
+    </g>
+    <path id="Path_1395" data-name="Path 1395" d="M0,0,27.509.016" transform="translate(0.083 4.373)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    <g id="Group_1483" data-name="Group 1483" transform="translate(7.803 19.616)">
+      <line id="Line_29" data-name="Line 29" x2="8.14" transform="translate(4.161)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_30" data-name="Line 30" x2="2.195" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_1484" data-name="Group 1484" transform="translate(10.601 7.841)">
+      <path id="Path_1357" data-name="Path 1357" d="M135.582,141.988l2.44-4.226a3.347,3.347,0,0,0-2.9-5.02h0a3.347,3.347,0,0,0-2.9,5.02l2.44,4.226A.53.53,0,0,0,135.582,141.988Z" transform="translate(-131.771 -132.741)" fill="#2f3133" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Ellipse_60" data-name="Ellipse 60" cx="1.201" cy="1.201" r="1.201" transform="translate(2.151 1.585)" fill="#2f3133" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.6"/>
+    </g>
+  </g>
+</svg>

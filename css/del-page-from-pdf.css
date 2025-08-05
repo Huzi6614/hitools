@@ -1,0 +1,220 @@
+* {
+    background-color: #d1dceb !important;
+}
+.drag_area{
+	width: 460px;
+	border:1.5px dashed #CFD4DD;
+	box-shadow: 0px 0px 15px 1px #CFD4DD;
+}
+.upload_option p.d1{
+	color: #222;
+	font-size: 22px;
+	font-weight: 600;
+}
+.upload_option p.d2 span{
+	color: #B5BAC4;
+	font-size: 14px;
+	font-weight: 700;
+	position: relative;
+}
+.upload_option p.d2 span:before {
+    content: "";
+    position: absolute;
+    background: #E3E7ED;
+    width: 130px;
+    height: 1.5px;
+    top: 10px;
+    right: 32px;
+}
+.upload_option p.d2 span:after {
+    content: "";
+    position: absolute;
+    background: #E3E7ED;
+    width: 130px;
+    height: 1.5px;
+    top: 10px;
+    left: 32px;
+}
+.upload_option p.d3{
+	color: #B5BAC4;
+	font-size: 14px;
+	font-weight: 600;
+}
+.upload_option .label_upload, .ptp_w{
+	width: 154px !important;
+}
+.rang_heading{
+	height: 45px;
+	background: #EBEEF1;
+	border:1px solid #E9E9E9;
+	font-size: 16px;
+}
+.dpdf_img{
+	width: 124px;
+	position: relative;
+	border:1px solid #707070;
+}
+.cross_pdf{
+	position: absolute;
+	right: 8px;
+}
+.cross_pdf{cursor: pointer;}
+.pdf_tabs .nav-link{
+	height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	background: #fff;
+	color: #222;
+	border:1px solid #E9E9E9;
+}
+.pdf_tabs .nav-link.active, .pdf_tabs .nav-item.show .nav-link{
+	color: #fff;
+    background-color: #1E70B9 !important;
+    border:none;
+}
+.rang_heading1{font-size: 15px;}
+.range_cross{
+	background-image: url(../webimages/range_cross.svg);
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;
+}
+.pdf_inph{
+	font-size: 13px;
+	font-weight: 600;
+	color: #505050;
+}
+@media only screen and (max-width: 767px){
+	.drag_area{width: 100%;}
+	.upload_option p.d2 span:before, .upload_option p.d2 span:after{width: 85px;}
+	.dpdf_img{margin:0px auto;}
+	.main_range_area .mdb{display: block !important;}
+	.pdf_pn{padding: 0px;}
+    .mpdfn{display:none;}
+    .append_image_box .img_box .remove_image{display: block;}
+}
+.password_area .toggle-password {
+    max-width: 48px;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../webimages/password_str1.svg);
+    z-index: 3;
+}
+.pass_check_button {
+    background: #1e70b9 !important;
+    max-width: 60px;
+    color: #fff !important;
+    border: 1px solid #e3e7ed;
+    font-weight: 700;
+    background-clip: border-box;
+}
+#result_section .img_box {
+    width: 190px;
+}
+#result_section .prograss_bar_pdf {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #e3e7ed;
+    margin-top: 3px;
+}
+#result_section .prograss_bar_pdf.disable {
+    background: #e3e7ed;
+    pointer-events: none;
+}
+.PDFprogress_wrapper{
+    cursor: not-allowed;;
+}
+.pdf_progress_loader{
+    width:20px;
+    height:20px;
+}
+#result_section .name {
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    white-space: nowrap;
+}
+#result_section .bottom_bar {
+    position: absolute;
+    height: 4px;
+    background: #1e70b9;
+    bottom: 0px;
+    left: 0px;
+}
+#name_edit{
+    margin: 0 0 5px 3px;
+}
+
+._c_range{
+    position: relative;
+}
+
+.delete_range {
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    cursor: pointer;
+}
+
+.aca_pdf_split .nav-tabs{
+    border-bottom: 0 !important;
+}
+
+.options_col{
+    min-height: 332px;
+    border-radius: 0 0 5px 5px;
+}
+.f_name{
+    width: 74%;
+    font-size: 13px;
+}
+
+.img_box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E3E7ED;
+    padding-top: 10px !important;
+}
+
+.img_box1 span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #798593;
+}
+.append_image_box .img_box {
+    position: relative;
+}
+.append_image_box  .img_box {
+    width: 146px;
+    margin: 5px 17px;
+}
+.img_upload_area .img_box .img_box2 {
+    height: 164px;
+}
+.append_image_box .img_box .remove_image {
+    display: none;
+}
+.append_image_box .img_box:hover .remove_image {
+    display: block;
+}
+
+
+.previw_Box{
+    position: relative;
+}
+.remove_image {
+    width: 25px;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    cursor: pointer;
+}

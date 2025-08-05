@@ -1,0 +1,26 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 7%;}
+.ip_res .box_w2{width: 33%;}
+.ip_res .box_w3{width: 15%;}
+.ip_res .box_w4{width: 9.5%;}
+.ip_res .box_w5{width: 15%;}
+.ip_res .box_w6{width: 11%;}
+.dage_toggle{
+    background-image: url(../webimages/ip_address1.svg);
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dage_rotate{transform: rotate(180deg);}
+.alexar_w{width: 121px;height:75px;max-width: 45%;}
+.tool_heading{margin-bottom:22px;}
+.input_section {padding-bottom:30px !important;}
+@media only screen and (max-width: 767px) {
+    .alexa_graph_box{border-right: none;border-bottom: 1px solid #E3E7ED !important;}
+    .scroll_w{width: 750px;}
+}

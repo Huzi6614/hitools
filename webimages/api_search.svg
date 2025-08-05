@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272" height="267" viewBox="0 0 272 267">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1107" data-name="Rectangle 1107" width="272" height="267" transform="translate(1213 856)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="search" transform="translate(-1213 -916)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 60)" clip-path="url(#clip-path)">
+      <g id="Group_4369" data-name="Group 4369" transform="translate(-62.331 -63.613)" opacity="0.08">
+        <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="93" cy="93.5" rx="93" ry="93.5" transform="translate(1284.331 917.613)" fill="#fffefe"/>
+        <g id="Group_4357" data-name="Group 4357" transform="translate(1274.853 909.463)">
+          <path id="Path_2173" data-name="Path 2173" d="M106.842,92.665c4.485,4.408,6.452,9.452,4.4,11.264l-5.407,4.794c-2.053,1.818-7.349-.285-11.83-4.691L5.212,16.709C.731,12.306-1.24,7.262.812,5.443L6.223.652c2.052-1.815,7.348.291,11.826,4.692Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 160.697, 170.372)" fill="#2a53c4"/>
+          <path id="Path_2174" data-name="Path 2174" d="M720.614,332.7a103.328,103.328,0,1,0-3.829,146.083A103.327,103.327,0,0,0,720.614,332.7m-14.336,135.01a88.059,88.059,0,1,1,3.264-124.5,88.065,88.065,0,0,1-3.264,124.5" transform="translate(-542.338 -300.503)" fill="#2a53c4"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_4358" data-name="Group 4358" transform="translate(-2 60)">
+      <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="52" cy="52" r="52" transform="translate(1280 914)" fill="#fffefe"/>
+      <g id="Group_4357-2" data-name="Group 4357" transform="translate(608 -355.389)">
+        <path id="Path_2173-2" data-name="Path 2173" d="M59.529,51.63c2.5,2.456,3.595,5.266,2.451,6.276l-3.013,2.671c-1.144,1.013-4.094-.159-6.591-2.614L2.9,9.31C.407,6.857-.691,4.046.453,3.033L3.467.363C4.61-.648,7.561.525,10.056,2.977Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 756.388, 1359.778)" fill="#2a53c4"/>
+        <path id="Path_2174-2" data-name="Path 2174" d="M641.667,318.441a57.571,57.571,0,1,0-2.134,81.393,57.57,57.57,0,0,0,2.134-81.393m-7.988,75.223A49.064,49.064,0,1,1,635.5,324.3a49.067,49.067,0,0,1-1.818,69.368" transform="translate(124.515 964.349)" fill="#2a53c4"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+* {
+    background-color: #d1dceb !important;
+}
+.comparison_tabs.nav-tabs .nav-link{
+    width: 120px;
+    border:1px solid #E3E7ED !important;
+    background-color:#fff;
+    color: #222;
+}
+.comparison_tabs.nav-tabs .nav-link.active{
+    background-color: #1E70B9 !important;
+    color: #fff;
+    border-color:#1E70B9 !important;
+}
+.matched_content {background: #ffe4e4;}
+@media only screen and (max-width: 767px){
+    .comparison_mmt{margin-top: 10px;}
+}

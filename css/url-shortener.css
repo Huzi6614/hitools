@@ -1,0 +1,23 @@
+* {
+    background-color: #d1dceb !important;
+}
+.url_shortener{
+	border: 1px solid #C2DFF9;
+	background-color: #F1F8FF;
+}
+.url_shortener .res_head{
+	background-color: #DDEDFB;
+	font-size: 16px;
+}
+.url_shortener .border1{border:1px solid #C2DFF9;}
+.input_lable{text-align:left;font-size:14px;font-weight:bold;color:#545454;}
+.limitURL{
+	white-space: nowrap;
+    overflow: hidden;
+  	text-overflow: ellipsis;
+}
+.showMobile{display:none;}
+@media only screen and (max-width: 767px){
+	.hideMobile{display: none;}
+	.showMobile{display:block;}
+}

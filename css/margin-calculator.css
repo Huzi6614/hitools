@@ -1,0 +1,50 @@
+* {
+    background-color: #d1dceb !important;
+}
+.mc_sty .nav-pills .nav-link{
+    height: 40px;
+    background-color: #fff;
+    min-width: 100px;
+    font-size: 16px;
+}
+.mc_sty .nav-pills .nav-link.active, .mc_sty .nav-pills .show > .nav-link{
+    background-color: #1E70B9 !important;
+    color: #fff !important;
+}
+.mc_sty .mc_w{max-width: 410px;}
+.mc_fs{font-size: 18px;margin-top: 12px;}
+.mc_sty .mc_span {
+    position: relative;
+}
+.mc_span span {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+.in_share_btn .ac_copy {background-image: url(../webimages/ar_copy_hover.svg);}
+.in_share_btn span{
+    background-color: #1E70B9;
+    min-width: 40px;
+    height: 40px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+    background-size: 20px !important;
+}
+.in_share_btn .ac_print {background-image: url(../webimages/ar_print_hover.svg);}
+.ac_share_btn{background-color: #E3E7ED;font-size: 18px;}
+.ac_share_btn span{white-space: nowrap;}
+.ac_share_btn input{height: 40px;}
+.stc_sty .stc_span{position: relative;}
+.stc_span span{
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+.mc_sty .mc_span input.tool_inp_sty {
+    padding-right: 35px !important;
+}
+@media only screen and (max-width: 767px) {
+    .mc_sty .nav-pills .nav-link span{display: none;}
+    .ac_share_btn{display: block !important;}
+}

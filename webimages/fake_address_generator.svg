@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-Fake_address_generator_light_mode">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="Fake_address_generator_light_mode" data-name="Fake address generator light mode" clip-path="url(#clip-Fake_address_generator_light_mode)">
+    <g id="Group_3" data-name="Group 3" transform="translate(-202 -410.63)">
+      <path id="Path_12" data-name="Path 12" d="M235,410.63H205a3,3,0,0,0-3,3v30a3.009,3.009,0,0,0,3,3h30a3.009,3.009,0,0,0,3-3v-30A3,3,0,0,0,235,410.63Zm2,33a2.006,2.006,0,0,1-2,2H205a2.006,2.006,0,0,1-2-2v-30a2.006,2.006,0,0,1,2-2h30a2.006,2.006,0,0,1,2,2Z" fill="#1e70b9"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="34" height="34" rx="2" transform="translate(203 411.63)" fill="#fff"/>
+      <path id="Path_13" data-name="Path 13" d="M215.441,421.242a6.442,6.442,0,0,0-.977,7.865l5.106,8.551a.5.5,0,0,0,.86,0l5.106-8.552a6.447,6.447,0,0,0-10.1-7.864Zm9.236,7.352L220,436.426l-4.677-7.831a5.448,5.448,0,1,1,9.354,0Z" fill="#1e70b9"/>
+      <path id="Path_14" data-name="Path 14" d="M220,423.375a2.589,2.589,0,1,0,2.588,2.588A2.591,2.591,0,0,0,220,423.375Zm0,4.177a1.589,1.589,0,1,1,1.588-1.589A1.59,1.59,0,0,1,220,427.552Z" fill="#1e70b9"/>
+    </g>
+  </g>
+</svg>

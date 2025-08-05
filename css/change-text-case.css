@@ -1,0 +1,48 @@
+* {
+    background-color: #d1dceb !important;
+}
+.input_section textarea::placeholder {
+  color: #C9D0DB;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 120px;
+}
+.ctc_share{justify-content: flex-end;}
+.ctc_share .share_options_btns .ar_download:hover {
+  background: #1E70B9;
+  background-image: url(../webimages/ar_download_hover.svg);
+  background-repeat: no-repeat;
+  background-size: 63%;
+  background-position: center;
+}
+.ctc_share .share_options_btns .ar_copy:hover {
+  background: #1E70B9;
+  background-image: url(../webimages/ar_copy_hover.svg);
+  background-repeat: no-repeat;
+  background-size: 63%;
+  background-position: center;
+}
+.ctc_share .share_options_btns span {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  background-size: 63%;
+}
+.ctc_btns button{
+  min-width: 128px;
+  height: 40px;
+  font-size: 13px;
+  background: #F2F5F7;
+}
+.ctc_btns button:hover,.ctc_btns button.active{
+  background:#1E70B9;
+  color:#fff;
+}
+@media only screen and (max-width: 767px) {
+  .ctc_btns button{min-width: 133px;}
+  .input_section textarea::placeholder{
+    font-size: 20px;
+    padding: 70px 30px 0px;
+  }
+}
+.input_section textarea.cus_scrollbar{height:250px !important}

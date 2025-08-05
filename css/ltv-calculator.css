@@ -1,0 +1,27 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ltv_cal_btn {
+    width: 200px;
+    height: 42px;
+    background-color: #000;
+}
+.ltv_img_sty {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    cursor: pointer;
+}
+.ltv_res{display: none;}
+#PropValue::placeholder, #description0::placeholder, #description1::placeholder, #description2::placeholder{
+    font-weight: normal;
+}
+#PropValue:-ms-input-placeholder, #description0::placeholder, #description1::placeholder, #description2::placeholder{ 
+    font-weight: normal;
+}
+#PropValue::-ms-input-placeholder, #description0::placeholder, #description1::placeholder, #description2::placeholder{ 
+    font-weight: normal;
+}
+input#description1, input#description2{padding-right: 40px !important;}
+@media only screen and (max-width: 767px) {
+}

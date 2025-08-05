@@ -1,0 +1,7 @@
+* {
+    background-color: #d1dceb !important;
+}
+.urlRewriting_res span[contenteditable]{white-space: break-spaces;}
+@media only screen and (max-width: 767px){
+	.urlRewriting_res .text-left{text-align: center !important;}
+}

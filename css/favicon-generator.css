@@ -1,0 +1,124 @@
+* {
+    background-color: #d1dceb !important;
+}
+.upload_btns{background-color: #F6F8FA;}
+.upload_option .label_upload {
+  width: 154px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #000 !important;
+}
+.input_section .upload_option{
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+}
+.input_section .drag_drop{
+  height: 320px;
+}
+.img_formats span{
+  font-size: 12px;
+  height: 24px;
+  min-width: 40px;
+  font-weight: bold;
+}
+.img_formats span.s1{
+  color: #3A2D7C;
+  background-color: #E9E5FD;
+}
+.img_formats span.s2{
+  color: #C43C3C;
+  background-color: #FDE5E5;
+}
+.img_formats span.s3{
+  color: #0C3F9F;
+  background-color: #D3E8FD;
+}
+.img_formats span.s4{
+  color: #000;
+  background-color: #E0E0E0;
+}
+.upload_option p.d2{
+  font-size: 13px;
+  color: #ACACAC;
+  position: relative;
+}
+.upload_option p.d2:before{
+  content: "";
+  position: absolute;
+  background: #E3E7ED;
+  width: 70px;
+  height: 1.5px;
+  top: 10px;
+  right: 100%;
+}
+.upload_option p.d2:after {
+  content: "";
+  position: absolute;
+  background: #E3E7ED;
+  width: 70px;
+  height: 1.5px;
+  top: 10px;
+  left: 100%;
+}
+/*result*/
+.favicon_res{
+  /*background-color: #F6F8FA;*/
+}
+.res_txt{
+  color: #222;
+  font-size: 14px;
+}
+.res_btn{
+  font-size: 14px;
+  width: 90px;
+  height: 30px;
+  background-color: #DF4937;
+}
+@media only screen and (max-width: 767px) {
+  .upload_option p.d2:before, .upload_option p.d2:after {display:none;}
+  .upload_option .label_upload span {display: block;}
+  .res_btn{
+    background-image: url(../webimages/download_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 24px;
+    max-width: 24px;
+    height: 24px;
+    font-size: 0px;
+  }
+}
+#preview .img_box_preview{
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+  position: relative;
+  border: 1px solid #E3E7ED;
+}
+#preview .img_box_preview img{
+  width: 100%;
+  height: 100%;
+}
+#preview .img_box_preview .del_preview{
+  position: absolute;
+  background-color: #2022237d;
+  top: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  text-align: right;
+  display: none;
+}
+#preview .img_box_preview:hover .del_preview{display:block}
+#preview .img_box_preview .del_preview span{
+  background-image: url('../webimages/image-cros.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  cursor: pointer;
+}

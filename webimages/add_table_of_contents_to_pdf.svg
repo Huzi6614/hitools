@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-PDF_Table_OF_Contents_Light_Mode_">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="PDF_Table_OF_Contents_Light_Mode_" data-name="PDF Table OF Contents (Light Mode)" clip-path="url(#clip-PDF_Table_OF_Contents_Light_Mode_)">
+    <g id="Group_211" data-name="Group 211" transform="translate(-290 -301.435)">
+      <g id="Group_210" data-name="Group 210">
+        <g id="Group_205" data-name="Group 205">
+          <g id="Group_204" data-name="Group 204">
+            <g id="Group_198" data-name="Group 198">
+              <path id="Path_96" data-name="Path 96" d="M318.625,336.934h-21.25a2.5,2.5,0,0,1-2.5-2.5v-30a2.5,2.5,0,0,1,2.5-2.5h14.694a2.5,2.5,0,0,1,1.767.732l6.557,6.557a2.5,2.5,0,0,1,.732,1.767v23.444A2.5,2.5,0,0,1,318.625,336.934Z" fill="#fff"/>
+              <path id="Path_97" data-name="Path 97" d="M318.625,337.435h-21.25a3,3,0,0,1-3-3v-30a3,3,0,0,1,3-3h14.694a2.975,2.975,0,0,1,2.121.878l6.556,6.556a2.98,2.98,0,0,1,.879,2.121v23.445A3,3,0,0,1,318.625,337.435Zm-21.25-35a2,2,0,0,0-2,2v30a2,2,0,0,0,2,2h21.25a2,2,0,0,0,2-2V310.99a1.983,1.983,0,0,0-.586-1.414l-6.556-6.556a1.988,1.988,0,0,0-1.414-.585Z" fill="#1e70b9"/>
+            </g>
+            <g id="Group_199" data-name="Group 199">
+              <path id="Path_98" data-name="Path 98" d="M317.74,312.069h-6.25a.5.5,0,0,1-.5-.5v-6.25a.5.5,0,0,1,1,0v5.75h5.75a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+            </g>
+            <g id="Group_203" data-name="Group 203">
+              <g id="Group_200" data-name="Group 200">
+                <path id="Path_99" data-name="Path 99" d="M316.259,333.435H299.74a.5.5,0,0,1,0-1h16.519a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+              </g>
+              <g id="Group_201" data-name="Group 201">
+                <path id="Path_100" data-name="Path 100" d="M316.259,329.685H305.99a.5.5,0,0,1,0-1h10.269a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+              </g>
+              <g id="Group_202" data-name="Group 202">
+                <path id="Path_101" data-name="Path 101" d="M302.509,329.685H299.74a.5.5,0,0,1,0-1h2.769a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Group_209" data-name="Group 209">
+          <g id="Group_206" data-name="Group 206">
+            <path id="Path_102" data-name="Path 102" d="M311.375,325.377h-6.75A1.626,1.626,0,0,1,303,323.752V317a1.626,1.626,0,0,1,1.625-1.625h6.75A1.626,1.626,0,0,1,313,317v6.75A1.627,1.627,0,0,1,311.375,325.377Zm-6.75-9A.625.625,0,0,0,304,317v6.75a.625.625,0,0,0,.625.625h6.75a.626.626,0,0,0,.625-.625V317a.626.626,0,0,0-.625-.625Z" fill="#1e70b9"/>
+          </g>
+          <g id="Group_207" data-name="Group 207">
+            <rect id="Rectangle_43" data-name="Rectangle 43" width="9" height="1" transform="translate(303.5 319.877)" fill="#1e70b9"/>
+          </g>
+          <g id="Group_208" data-name="Group 208">
+            <rect id="Rectangle_44" data-name="Rectangle 44" width="1" height="9" transform="translate(307.5 315.877)" fill="#1e70b9"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

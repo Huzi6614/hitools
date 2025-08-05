@@ -1,0 +1,15 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;background:#F6F8FA;}
+.ip_res{font-size: 14px;font-weight: 600;}
+.ip_res .box_w1{width: 20%;}
+.ip_res .box_w2{width: 40%;}
+.ip_res .box_w3{width: 40%;}
+.ip_res .box_w4{width: 80%;}
+.matched_content {background: #ffe4e4;}
+.ip_res div span {color:red;font-weight:bold;}
+@media only screen and (max-width: 767px) {
+    .scroll_w{width: 750px;}
+    .comparison_mmt{margin-top: 10px;}
+}

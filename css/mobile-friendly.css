@@ -1,0 +1,28 @@
+* {
+    background-color: #d1dceb !important;
+}
+.mob_friendly .topspan {
+    color: #202020;
+}
+#mob_screenshot{
+    background-image: url(../webimages/mobile-friendly.svg);
+    /*width: 276px;*/
+    height: 563px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#mob_screenshot img{
+    width: 238px;
+    height: 425px;
+    margin-top: 68px;
+}
+.friendly_res{
+    width: 100px;
+    height: 100px;
+}
+.mob_friendly .fs18{font-size: 18px;}
+.mob_friendly .fs16{font-size: 16px;}
+@media only screen and (max-width: 767px) {
+ .mob_friendly .tool_btn{width: 100%;}
+}

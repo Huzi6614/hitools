@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="26" viewBox="0 0 36 26">
+  <defs>
+    <clipPath id="clip-Credit_Card_Generator_light_mode">
+      <rect width="36" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="Credit_Card_Generator_light_mode" data-name="Credit Card Generator light mode" clip-path="url(#clip-Credit_Card_Generator_light_mode)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-34 -415.63)">
+      <path id="Path_1" data-name="Path 1" d="M67,415.63H37a3,3,0,0,0-3,3v20a3.009,3.009,0,0,0,3,3H67a3.009,3.009,0,0,0,3-3v-20A3,3,0,0,0,67,415.63Zm2,23a2.006,2.006,0,0,1-2,2H37a2.006,2.006,0,0,1-2-2v-12H69Zm0-13H35v-3H69Zm0-4H35v-3a2.006,2.006,0,0,1,2-2H67a2.006,2.006,0,0,1,2,2Z" fill="#1e70b9"/>
+      <path id="Path_2" data-name="Path 2" d="M69,418.63v3H35v-3a2.006,2.006,0,0,1,2-2H67A2.006,2.006,0,0,1,69,418.63Z" fill="#fff"/>
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="34" height="3" transform="translate(35 422.63)" fill="#fff"/>
+      <path id="Path_3" data-name="Path 3" d="M69,426.63v12a2.006,2.006,0,0,1-2,2H37a2.006,2.006,0,0,1-2-2v-12Z" fill="#fff"/>
+      <path id="Path_4" data-name="Path 4" d="M64.5,431.628h-7a1.5,1.5,0,0,0-1.5,1.5v3a1.5,1.5,0,0,0,1.5,1.5h7a1.5,1.5,0,0,0,1.5-1.5v-3A1.5,1.5,0,0,0,64.5,431.628Zm.5,4.5a.5.5,0,0,1-.5.5h-7a.5.5,0,0,1-.5-.5v-3a.5.5,0,0,1,.5-.5h7a.5.5,0,0,1,.5.5Z" fill="#1e70b9"/>
+      <path id="Path_5" data-name="Path 5" d="M38.5,433.628h6a.5.5,0,0,0,0-1h-6a.5.5,0,0,0,0,1Z" fill="#1e70b9"/>
+      <path id="Path_6" data-name="Path 6" d="M48.5,435.628h-10a.5.5,0,0,0,0,1h10a.5.5,0,0,0,0-1Z" fill="#1e70b9"/>
+    </g>
+  </g>
+</svg>

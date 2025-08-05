@@ -1,0 +1,52 @@
+* {
+    background-color: #d1dceb !important;
+}
+.input_section textarea::placeholder {
+  color: #C9D0DB;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 120px;
+}
+.upload_option .tool_btn{
+  width: 86px;
+  height: 30px;
+  font-size: 13px;
+}
+.menu_heading{font-size: 16px;}
+.clr_code input{
+  width: 26px;
+  height: 26px;
+}
+.comb_res {height: 280px;}
+.cus_select, .b_bottom1{border-bottom: 1px solid #D5DAE3;}
+@media only screen and (max-width: 767px){
+  .input_section textarea::placeholder {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .mp_r{padding-right: 0px;}
+  .input_section textarea::placeholder{
+    font-size: 20px;
+    padding: 70px 30px 0px;
+  }
+}
+.comb_res{overflow:auto;}
+.input_section textarea.cus_scrollbar{height: 250px !important}
+.share_options_btns a.ar_download{
+  background-color: #F2F5F7;
+  border: 1px solid #E3E7ED;
+  width: 46px;
+  height: 46px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.share_options{display:none;}
+
+.aca_fabricCanvas .cus_scrollbar{
+  height: 308px !important;
+}
+
+#aca_tti_fill,#aca_tti_bgColor,#aca_tti_bgTxtColor{
+  cursor: pointer;
+}

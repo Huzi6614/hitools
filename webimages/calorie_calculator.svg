@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.673" height="34.504" viewBox="0 0 36.673 34.504">
+  <g id="calorie_calculator" transform="translate(-987.565 -221.847)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="26.805" height="30.156" rx="3.351" transform="translate(988.065 222.347)" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="13.402" height="5.026" rx="1.675" transform="translate(994.766 229.049)" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_15" data-name="Line 15" x2="3.362" transform="translate(993.052 240.776)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_16" data-name="Line 16" x2="3.362" transform="translate(999.786 240.792)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_17" data-name="Line 17" x2="3.362" transform="translate(999.786 240.792)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_18" data-name="Line 18" x2="3.362" transform="translate(1006.488 240.7)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_19" data-name="Line 19" x2="3.362" transform="translate(993.052 245.802)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_20" data-name="Line 20" x2="3.362" transform="translate(999.786 245.818)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_21" data-name="Line 21" x2="3.362" transform="translate(1006.488 245.726)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="10.125" cy="10.125" r="10.125" transform="translate(1003.488 235.601)" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_5" data-name="Path 5" d="M230.475,57.424" transform="translate(783.138 184.452)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_6" data-name="Path 6" d="M229.066,57.647c-1.742,0-2.323,1.742-2.323,3.194,0,1.742,1.162,4.356,2.323,4.356.632-.027.975-.291,1.743-.291s.871.291,1.742.291,2.323-1.742,2.323-2.9a1.757,1.757,0,0,1-1.452-1.742c-.011-1.261,1.4-1.716,1.452-1.743a3.044,3.044,0,0,0-2.033-1.161c-.832-.065-1.643.581-2.032.581S229.705,57.647,229.066,57.647Z" transform="translate(783.138 184.452)" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_7" data-name="Path 7" d="M230.809,55.9a1.162,1.162,0,0,0,1.161-1.162,1.161,1.161,0,0,0-1.161,1.162" transform="translate(783.138 184.452)" fill="#fff" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

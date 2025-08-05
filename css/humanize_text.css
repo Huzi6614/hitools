@@ -1,0 +1,152 @@
+* {
+    background-color: #d1dceb !important;
+}
+body{
+  font-family: "arial";
+}
+.ht_tool_bg{
+  background-image: url('../webimages/humaniza-text-bg.png'),linear-gradient(0deg, rgba(228,236,240,0) 0%, rgba(228,236,240,1) 100%);
+  /* min-height: 1400px; */
+  /* max-height: 972px; */
+  background-repeat: no-repeat;
+}
+.tool_heading{font-size: 26px;}
+.tool_desc{font-size: 16px;max-width: 815px;}
+.tool_box{
+  max-width:1700px;
+  border-radius:20px;
+  min-height: 770px;
+  border: 1px solid #E2ECE9;
+}
+.ht_rt{font-size: 20px;font-weight: 500;}
+.rt_tabs{
+  min-width: 230px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #EDF4FF;
+  border: 1px solid #DCE7E3;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.ht_tool_input {
+  border-radius: 20px 0px 0px 20px;
+  border: 1px solid #D9E0DD;
+  min-height: 530px;
+}
+.ht_tool_output {
+  background-color: #F5F9FA;
+  border-radius: 0px 20px 20px 0px;
+  border: 1px solid #D9E0DD;
+  border-left: none;
+  min-height: 530px;
+}
+.ht_desc{font-size: 16px;font-weight: 500;}
+.ht_generate_btn {
+  background-color: #461E9B;
+  min-width: 220px;
+  height: 60px;
+  border-radius: 8px;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ht_txtarea.cus_scrollbar{
+  border-bottom: 1px solid #D9E0DD !important;
+  height: 453px;
+}
+.inn_txtarea_sty{
+  position: absolute;
+  top: 7.5rem;
+  left: 0;
+  right: 0;
+}
+/*upload btns*/
+.ht_upload_btns{
+  width: 40px;
+  height: 40px;
+  border:1px solid #DCE7E3;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.label_upload{
+  min-width: 122px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #FF8A00 !important;
+  justify-content: space-evenly;
+}
+.upload_btns.upload_file{background-image: url(../webimages/upload_file.svg);}
+.upload_btns.dropbox,.upload_btns.dropboxsave,.dropbox_load{background-image: url(../webimages/dropbox.svg);}
+.upload_btns.google_drive{background-image: url(../webimages/google-drive.svg);}
+.txt_heading{font-size: 20px;max-width: 274px;}
+.ht_lang {
+  min-width: 120px;
+  height: 40px;
+  color: #000000;
+  font-size: 16px;
+  border: 1px solid #DCE7E3;
+  border-radius: 8px;
+}
+.lang_drop .dropdown-divider {border-color: #DCE7E3;}
+.ht_count{font-size: 16px;}
+.txtarea_btns{
+  width: 124px;
+  height: 90px;
+  background-color: #F5F9FA;
+  border-radius: 8px;
+  border: 1px solid #D9E0DD;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.tb_st_img{
+  background-image: url(../webimages/tb_st_img.png);
+  width: 26px;
+  height: 26px;
+}
+.tb_pt_img{
+  background-image: url(../webimages/tb_pt_img.png);
+  width: 26px;
+  height: 26px;
+}
+.ht_copy,.plg_btn{
+  min-width: 92px;
+  height: 40px;
+  background-color: #461E9B;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ht_download{
+  min-width: 122px;
+  height: 40px;
+  background-color: #461E9B;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ht_tool_output .ht_txtarea{background-color: transparent;}
+.ht_tw,.ht_wb{font-size: 16px;}
+.ht_wb{color: #461E9B;font-weight: 500;}
+@media only screen and (max-width: 767px) {
+  .tool_heading {font-size: 22px;}
+  .tool_desc,.ht_desc,.ht_tw,.ht_wb {font-size: 14px;}
+  .txt_heading {font-size: 15px;max-width: 175px;}
+  .upload_option .label_upload{width: 40px; min-width: unset;}
+  .ht_generate_btn{min-width: 190px;}
+  .ht_tool_input,.ht_tool_output{min-height: 377px;}
+  .ht_txtarea.cus_scrollbar{height: 300px;}
+  .inn_txtarea_sty{top: 3rem;}
+  .txtarea_btns {width: 104px;height: 80px;font-size: 14px;}
+  .ht_tool_input,.ht_tool_output{border-radius: 20px;}
+  .tool_output {border-left: 1px solid #D9E0DD;}
+  .ht_lang {min-width: 100px;}
+  .ht_tool_bg {max-height: none;}
+}

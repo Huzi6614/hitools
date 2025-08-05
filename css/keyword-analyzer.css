@@ -1,0 +1,55 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res {font-size: 14px;}
+.kdc_pills .nav-pills .nav-link.active{background-color: #EA5050;color: #fff;}
+.kdc_pills .nav-pills .nav-link{
+    border-bottom: 1px solid #E3E7ED;
+    font-size: 16px;
+    color: #040404;
+}
+.bg_e3e7ed{background-color: #E3E7ED;}
+.ka_inp .form-control, .ka_inp .input-group-text{height: 45px;}
+.ka_inp .input-group-text{width: 125px;}
+.top_ka{
+	width: 50px;
+	height: 24px;
+}
+.bg_222{background-color: #222;}
+.semrush_banner{
+    background-image: url(../webimages/semrush_banner.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 227px;
+    background-position: center;
+    background-size: contain;
+}
+.semrush_text .txt1{font-size: 24px;}
+.semrush_text .txt2{font-size: 16px;}
+.semrush_text a{
+    font-size: 16px;
+    height: 40px;
+    background:#EA5050;
+}
+[class*="more_close"]{
+    position: absolute;
+    right: 0px;
+    background: #ea5050;
+    height: 18px;
+    width: 18px;
+    font-size: 12px;
+    border-bottom-left-radius: 10px;
+}
+#keyword-analyzer-form .form-control::placeholder{
+    color: #000;
+}
+@media only screen and (max-width: 767px) {
+    .kdc_pills .nav-pills .nav-link{font-size: 12px;}
+    .kdc_pills .nav-pills .nav-link{
+        border-bottom: none;
+        border-right: 1px solid #E3E7ED;
+        padding: 5px !important;
+    }
+    .semrush_text .txt1{font-size: 20px;}
+    .semrush_text .txt2, .semrush_text a{font-size: 14px;}
+}

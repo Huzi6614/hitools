@@ -1,0 +1,42 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 30%;position: relative;}
+.ip_res .box_w2{width: 10%;}
+.ip_res_media{
+    position: absolute;
+    width: 260px;
+    left: 10px;
+    z-index: 2;
+    box-shadow: 0px 0px 2px 1px #E3E7ED;
+    display:none;
+    top: 40px;
+    border-bottom: 3px solid #1E70B9;
+}
+.ip_res_media div:nth-child(odd){
+    font-size: 15px;
+    font-weight: 700;
+}
+.ip_res_media div:nth-child(even){
+    font-size: 14px;
+    font-weight: 600;
+}
+.dage_toggle{
+    background-image: url(../webimages/ip_address1.svg);
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #1E70B9;
+}
+.dage_rotate{transform: rotate(180deg);}
+.exp_rclr{color: #ea5050}
+.exp_gclr{color: #55B844}
+@media only screen and (max-width: 767px) {
+    .ip_res .box_w1{width: 78%}
+    .ip_res .box_w2{width: 22%}
+    .ip_res .mdb{display: block !important;}
+    .ip_res .mdn{display: none !important;}
+}

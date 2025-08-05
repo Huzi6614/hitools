@@ -1,0 +1,76 @@
+* {
+    background-color: #d1dceb !important;
+}
+.backlink_circle {width: 24%;}
+.backlink_circle .topspan{color: #202020;}
+.backlink_w{width: 32%;}
+.backlink_rating{width: 74%;}
+.backlink_rating .fs24{font-size: 24px;}
+.backlink_rating .br1{border-right: 1px solid #E3E7ED;}
+.fn_circle{
+	width: 14px;
+	height: 14px;
+	border:3px solid;
+}
+.fn_circle.br_clrg{border-color: #38C581;}
+.fn_circle.br_clrb{border-color: #1E70B9;}
+.back_box1{width: 25%;}
+.back_box2{width: 20%;}
+.back_box3{width: 30%;}
+.back_box4{width: 25%;}
+.ip_res_head{font-size: 16px;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 8%;}
+.ip_res .box_w2{width: 42%;}
+.ip_res .box_w3{width: 25%;}
+.ip_res .box_w4{width: 15%;}
+.ip_res .box_w5{width: 10%;position: relative;}
+.ip_res_media{
+    position: absolute;
+    width: 277px;
+    right: 8px;
+    z-index: 1;
+    display: none;
+    top: 90%;
+    box-shadow: 0px 0px 2px 1px #E3E7ED;
+    border-bottom: 3px solid #1E70B9;
+}
+.ip_res_media div:nth-child(even) {font-size: 14px;}
+[class*="dage_toggle"]{
+    background-image: url(../webimages/ip_address1.svg);
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    border: 1px solid #1E70B9;
+}
+.dage_rotate{transform: rotate(180deg);}
+.wblc_rclr{color: #ea5050}
+.wblc_gclr{color: #55B844}
+.fn_circle + div {
+    line-height: normal;
+}
+.m_backlink_sty{border-left-width: 0;}
+@media only screen and (max-width: 767px){
+	.backlink_circle{padding-right: 0px;}
+	.backlink_rating .br1{
+		border-right: none;
+		border-bottom: 1px solid #E3E7ED;
+	}
+	.backlink_sty, .backlink_rating{display:block !important;}
+	.backlink_w, .back_box1, .back_box2, .back_box3, .back_box4, .backlink_w100{width: 100% !important;}
+	.backlink_w100{margin-bottom: 10px;}
+	.ip_res .box_w1{width: 17%}
+    .ip_res .box_w2{width: 60%}
+    .ip_res .box_w5{width: 23%}
+	.ip_res .mdb{display: block !important;}
+    .ip_res .mdn{display: none !important;}
+    .backlink_sty .mbtb_n {border-width: 0px 1px;}
+    .m_backlink_sty{border-left-width: 1px;border-top: none;}
+    .m_text_center{text-align: center !important;}
+}
+@media only screen and (max-width: 960px){
+	.backlink_circle, .backlink_rating{width: 100%;}
+	.backlink_rating{margin-top: 10px;}
+	.backlink_mdb{display:block !important;}
+}

@@ -1,0 +1,72 @@
+* {
+    background-color: #d1dceb !important;
+}
+.or_combi{font-size: 18px;}
+.input_section textarea::placeholder {color: #C9D0DB;}
+.demo_txt span{
+	min-width: 120px;
+	height: 46px;
+	background: #fff;
+	font-size: 14px;
+}
+.demo_txt span.active, .demo_txt span:hover{
+	background: #1E70B9;
+	color: #fff;
+	border: none;
+}
+.combiner_txtarea textarea{
+	width: 250px;
+	height: 280px;
+	width: 32%;
+}
+.extra_opt span{
+	font-size: 14px;
+	min-width: 142px;
+	height: 46px;
+	position: relative;
+    cursor: pointer;
+	padding-right: 2.6rem;
+}
+.extra_opt span:after {
+    content: "-";
+    color: #fff;
+    position: absolute;
+    right: 14px;
+    background: #1e70b9;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 20px;
+	font-size: 23px;
+
+}
+.extra_opt .change_it:after {content: "+";font-size: 17px;}
+.custom_sep{
+	height: 40px;
+	font-size: 13px;
+	color: #505050;
+}
+.comb_heading{font-size: 14px;}
+.comb_res{
+	height: 320px;
+	font-size: 15px;
+	overflow: auto;
+}
+.cus_opt{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+}
+@media only screen and (max-width: 767px){
+	.demo_txt span{
+		font-size: 13px;
+		width: 83px;
+		height: 40px;
+	}
+	.combiner_txtarea{display: block !important;}
+	.combiner_txtarea textarea{width: 100%;height: 200px;}
+	.cus_opt{width: 100%;}
+}
+#cus_sep,#cus_wrap_in{display:none;}

@@ -1,0 +1,25 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 7%;}
+.ip_res .box_w2{width: 48%;}
+.ip_res .box_w3{width: 35%;}
+.ip_res .box_w4{width: 10%;position: relative;}
+.ip_res_media{
+    position: absolute;
+    width: 260px;
+    right: 10px;
+    top: 50px;
+    z-index: 2;
+    box-shadow: 0px 0px 2px 1px #E3E7ED;
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .ip_res .box_w1{width: 15%}
+    .ip_res .box_w2{width: 65%}
+    .ip_res .box_w4{width: 20%}
+    .ip_res .mdb{display: block !important;}
+    .ip_res .mdn{display: none !important;}
+}

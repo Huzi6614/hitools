@@ -1,0 +1,53 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 29%;position: relative;}
+.ip_res .box_w2{width: 23.5%;}
+.ip_res .box_w4{width: 24%;}
+.ip_res_media{
+    position: absolute;
+    width: 438px;
+    left: 10px;
+    z-index: 2;
+    box-shadow: 0px 0px 2px 1px #E3E7ED;
+    display:none;
+    border-bottom: 4px solid #1E70B9;
+}
+.ip_res_media div:nth-child(odd){
+    font-size: 15px;
+    font-weight: 700;
+}
+.ip_res_media div:nth-child(even){
+    font-size: 14px;
+    font-weight: 600;
+}
+.da_btn{
+    min-width: 117px;
+    height: 28px;
+    font-size: 12px;
+    background: #1E70B9;
+}
+.dage_toggle{
+    background-image: url(../webimages/ip_address1.svg);
+    min-width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: 4px 7px;
+    border: 2px solid #1E70B9;
+}
+.dage_rotate{transform: rotate(180deg);}
+@media only screen and (max-width: 767px) {
+    .ip_res .box_w1, .ip_res .box_w2{width: 50%}
+    .ip_res .mdb{display: block !important;}
+    .ip_res .mdn{display: none !important;}
+    .ip_res_media{width: 260px;}
+    .da_btn{
+        width:100%;
+        height:auto;
+        text-align:center;
+        line-height: normal;
+        padding: 4px 0px;
+    }
+}

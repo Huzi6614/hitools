@@ -1,0 +1,26 @@
+* {
+    background-color: #d1dceb !important;
+}
+.key_difficulty span{
+	color: #1E70B9;
+    font-size: 22px;
+}
+.key_difficulty input{height: 41px;}
+.key_difficulty input::placeholder{color: #000;font-size: 13px;}
+.key_comp_sty .brl{border-left: 1px solid #E3E7ED;}
+.key_comp_sty .brt{border-top: 1px solid #E3E7ED;}
+.key_comp_sty .fs24{font-size: 24px;}
+.key_comp_sty span{
+	min-width: 60px;
+	height: 22px;
+}
+.key_comp_sty span.bg1{background-color: #DF4937;}
+.key_comp_sty span.bg2{background-color: #3984D0;}
+.key_comp_sty span.bg3{background-color: #222;}
+.key_comp_sty span.bg4{background-color: #7054CC;}
+.key_comp_sty span.bg5{background-color: #54CCB0;}
+.key_comp_sty span.bg6{background-color: #EFA94B;}
+
+@media only screen and (max-width: 767px) {
+	.key_comp_sty .brl, .key_comp_sty .brt{border: none;}
+}

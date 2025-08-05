@@ -1,0 +1,77 @@
+* {
+    background-color: #d1dceb !important;
+}
+#speed {
+    font-size: 139px;
+    color: #ea5050;
+    line-height: 150px;
+    text-align: center;
+}
+#mbps {
+    text-align: center;
+    font-size: 26px;
+    margin-top: -30px;
+    color: #505050;
+    display: block;
+}
+.fs30 {font-size: 30px;}
+.fs12 {font-size: 12px;}
+.ist_w{width: 110px;}
+.calculation-wrapper{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+/* .calculation_box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 30px;
+} */
+.calculation_box img{
+    width:46px;
+    height: 46px;
+}
+.calculation_box span{
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+#down-speed,#upload-speed,#ping-speed,#jitter-speed{
+    font-size:30px;
+    font-weight: 600;
+}
+#dlMeter{
+    /* width: 160%;
+    margin-left: -100px;
+    margin-top: -8px; */
+    width: 500px;
+    width: 160%;
+    margin-left: -6rem;
+}
+.info_wrap{
+    width: 96%;
+    text-align: left;
+    background-color: #F6F8FA;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+.speed-ration{
+    position: absolute;
+    top: 135px;
+    left: 6%;
+    right: 0px;
+}
+#random-ration{
+    display: block;
+    font-size: 35px;
+}
+@media only screen and (max-width: 767px) {
+    #speed {font-size: 75px;line-height: 115px;}
+    #dlMeter{margin-left: 0rem;width: 100%;}
+    #random-ration{font-size: 30px;}
+    .speed-ration{left: 0px;right: 0px;top: 40%;}
+}

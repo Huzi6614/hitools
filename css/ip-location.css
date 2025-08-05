@@ -1,0 +1,27 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 7%;}
+.ip_res .box_w2{width: 16.5%;}
+.ip_res .box_w3{width: 14.5%;}
+.ip_res .box_w4{width: 12.5%;}
+.ip_res .box_w5{width: 12%;}
+.ip_res .box_w6{width: 11%;}
+.ip_res .box_w7{width: 10%;}
+.ip_res_media{
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    z-index: 2;
+    display: none;
+    border-bottom: 3px solid #1E70B9;
+}
+@media only screen and (max-width: 767px) {
+    .ip_res .box_w1{width: 20%}
+    .ip_res .box_w2{width: 60%}
+    .ip_res .box_w8{width: 20%;position: relative;}
+    .ip_res .mdb{display: block !important;}
+    .ip_res .mdn{display: none !important;}
+}

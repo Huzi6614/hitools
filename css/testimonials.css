@@ -1,0 +1,16 @@
+* {
+    background-color: #d1dceb !important;
+}
+.main_area_report{width: 1000px;}
+.main_area_report .testimonials{
+	background-image: url(../webimages/testimonials.svg);
+	background-repeat: no-repeat;
+	background-position: 95% 30px;
+}
+.main_area_report .testimonials img{width: 56px;}
+.main_area_report .testimonials .fs22{font-size: 22px;}
+.main_area_report .testimonials .fs14{font-size: 14px;}
+.main_area_report .testimonials .lhn{line-height: normal;}
+@media only screen and (max-width: 767px) {
+	.main_area_report{width: 100%;}
+}

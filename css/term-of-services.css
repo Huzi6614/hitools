@@ -1,0 +1,30 @@
+* {
+    background-color: #d1dceb !important;
+}
+.main_area_report{width: 1000px;}
+.main_area_report .fs18{font-size: 18px !important;}
+.main_area_report .term_services p,
+.main_area_report .term_services li{font-size: 14px;color: #505050;}
+.main_area_report .term_services li{display: flex;align-items: baseline;}
+.main_area_report .term_services h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 20px 0px;
+}
+.main_area_report .term_services .disclaimer{
+	border:1px solid #7DC2FF;
+	background-color: #F8FCFF;
+}
+.term_services li::before {
+    content: "•";
+    color: #1E70B9;
+    font-size: 20px;
+    margin-right: 15px;
+}
+@media only screen and (max-width: 767px) {
+	.main_area_report{width: 100%;}
+	.term_services{text-align: center !important;}
+	.main_area_report .term_services h3{
+		font-size: 16px;
+	}
+}

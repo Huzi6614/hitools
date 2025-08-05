@@ -1,0 +1,26 @@
+* {
+    background-color: #d1dceb !important;
+}
+.pf_calc_sty .form-control{height: 90px;font-size: 30px;}
+.pf_calc_sty .input-group-text{
+    width: 90px;
+    height: 90px;
+    background-color: #EAEDF1;
+    font-size: 30px;
+}
+.pfc_res {background: #202223;}
+.pfc_res .pfc_blr{
+    border-left:1px solid #515151;
+    border-right:1px solid #515151;
+}
+span#total_fee, span#ask_for{
+    word-break: break-all;
+}
+@media only screen and (max-width: 767px) {
+    .pfc_res .pfc_blr{
+        border-left:none;
+        border-right:none;
+        border-top:1px solid #515151;
+        border-bottom:1px solid #515151;
+    }
+}

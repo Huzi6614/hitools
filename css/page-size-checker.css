@@ -1,0 +1,10 @@
+* {
+    background-color: #d1dceb !important;
+}
+.wpsc_results .box1{width: 8%;}
+.wpsc_results .box2{width: 46%;}
+.wpsc_results .box3{width: 22%;}
+.wpsc_results .box4{width: 24%;}
+@media only screen and (max-width: 767px) {
+    .wpsc_results .scroll_w{width: 600px;}
+}

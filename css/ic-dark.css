@@ -1,0 +1,40 @@
+* {
+    background-color: #d1dceb !important;
+}
+.bg_style {background-image: url('../webimages/dark_icons/ic_bg.png');}
+.input_area{border-color: #707070;}
+.ic_txtarea::placeholder,.ic_txtarea{color: #fff !important;}
+.footer{
+    background-image: none;
+    background: #000000;
+    color:white
+}
+.footer-link, .footer a{
+    color: #fff!important;
+}
+.footer-card{
+    background-color: #111111;
+    border: solid 1px #484848;
+    color: white;
+}
+.subscribe_input{
+    background: #3B3B3B;
+    border-color: #3B3B3B;
+}
+.subscribe-btn{
+    border: solid 3px #3B3B3B;
+    border-radius: 8px!important;
+}
+.subscribe_input_group .input-group-append{
+    border: solid 2px #3B3B3B!important;
+    background-color: #3B3B3B;
+}
+.subscribe_input_group{
+    border: solid 2px #3B3B3B;
+    border-radius: 8px;
+}
+@media screen and (max-width:768px) {
+    .navbar-toggler{
+        background-color: transparent;
+    }
+}

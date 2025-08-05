@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.349" height="41.349" viewBox="0 0 41.349 41.349">
+  <g id="AI_-_light_theme" data-name="AI - light theme" transform="translate(-1016 229.999)">
+    <line id="Line_1" data-name="Line 1" x2="40.349" transform="translate(1016.5 -213.276)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_2" data-name="Line 2" x2="40.349" transform="translate(1016.5 -205.374)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_3" data-name="Line 3" y1="40.349" transform="translate(1032.724 -229.499)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_4" data-name="Line 4" y1="40.349" transform="translate(1040.625 -229.499)" fill="none" stroke="#1e70b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Rectangle_1" data-name="Rectangle 1" d="M2.9,0H23.178a2.9,2.9,0,0,1,2.9,2.9v20.28a2.9,2.9,0,0,1-2.9,2.9H2.9a2.9,2.9,0,0,1-2.9-2.9V2.9A2.9,2.9,0,0,1,2.9,0Z" transform="translate(1023.637 -221.942)" fill="#fff"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" d="M2.9,0H23.178a2.9,2.9,0,0,1,2.9,2.9v20.28a2.9,2.9,0,0,1-2.9,2.9H2.9a2.9,2.9,0,0,1-2.9-2.9V2.9A2.9,2.9,0,0,1,2.9,0Z" transform="translate(1023.637 -221.942)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1" data-name="Path 1" d="M15.627,26.5v-8.53a2.843,2.843,0,1,1,5.687,0V26.5" transform="translate(1016 -229.999)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" x2="5.687" transform="translate(1031.627 -207.762)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" y2="11.655" transform="translate(1041.129 -215.153)" fill="none" stroke="#1e70b9" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

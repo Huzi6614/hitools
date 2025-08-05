@@ -1,0 +1,28 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_heading{
+    font-size: 24px;
+    color: #202020;
+}
+.ip_heading span{color: #1E70B9;}
+.ip_heading2{
+    font-size: 18px;
+    color: #505050;
+}
+.info_desc{
+    border-bottom: 1px solid #E3E7ED;
+    color: #202020;
+    font-size: 14px;
+}
+.info_desc:last-child{border-bottom: none;}
+.top_near{font-size: 20px;color: #202020;}
+.top_place{font-size: 16px;color: #202020;}
+.uIP {word-break:break-all;}
+.uIP span:first-child {width:33%;text-align: left;}
+.uIP span:last-child {width:60%;}
+@media only screen and (max-width: 991px) {
+    .my_ip_mbb{border-bottom: 1px solid #E3E7ED !important;}
+    .my_ip_pln{padding-left: 0px;margin-top: 15px;} 
+    .ip_heading{word-break:break-all;}
+}

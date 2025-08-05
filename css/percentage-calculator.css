@@ -1,0 +1,23 @@
+* {
+    background-color: #d1dceb !important;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.per_cal .tool_inp_sty {width:16%;height:40px;}
+.pc_inpw .tool_inp_sty {width: 120px;}
+.per_cal .check_resbtn {width:16%;height:40px;background-color: #1E70B9;font-size: 15px;}
+.per_cal .reset_btn {width:120px;height:36px;background-color:#EA5050;}
+.per_cal .equal_to {width:28px;height:28px;font-size:25px;margin-top:26px;}
+.pc_inn_head{font-size: 15px;}
+.pc_fraction{height: 1px;background-color: #e3e7ed;}
+button#percent_conv_res_1 {height:36px;}
+@media only screen and (max-width: 767px) {
+    .pc_mdb{display: block !important;}
+    .per_cal .check_resbtn {width: 120px;}
+    .per_cal .tool_inp_sty {min-width: 240px;}
+    .pc_inpw .tool_inp_sty {min-width: 204px;}
+}
+@media only screen and (max-width: 900px) {
+    .pc_inpw .tool_inp_sty {width: 90px;}
+}

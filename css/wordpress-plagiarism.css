@@ -1,0 +1,108 @@
+* {
+    background-color: #d1dceb !important;
+}
+.main_area_report{width: 1100px;line-height: normal;}
+@media only screen and (max-width: 767px) {
+	.main_area_report{width: 100%;}
+    .deep_sec .col-lg-8{text-align: center !important;padding: 0px !important}
+    .deep_sec .pricingBtn{justify-content: center;}
+    .deep_sec a {margin-top: 5px;}
+    .pcapi{padding: 0px !important}
+    .api_orng_sec [class*="col-lg"]{text-align: center !important;}
+    .api_orng_sec .col-lg-8{padding: 15px 15px 25px !important}
+    .rstikyBtn {right: 0px !important;min-width: unset;width: 43px;background-size: cover;}
+    .api_orng_sec .col-lg-4{display: none;}
+    .two_steps_sec .tbox {padding: 10px;}
+    .two_steps_sec .tbox {min-height: auto !important;}
+}
+.pcapi>h3 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.easyheading span {
+    background: #222222;
+    color: #fff;
+    padding: 10px 20px;
+}
+.deep_sec {
+    padding: 60px 5%;
+}
+.deep_sec h3 {
+    font-size: 25px;
+}
+.deep_sec .col-lg-8 {
+    padding-left: 30px;
+}
+.main_area_report p {
+    font-size: 13px;
+    line-height: 26px;
+    color: #808080;
+}
+a.downplugin {
+    background: #1e70b9;
+    color: #fff;
+    padding: 11px 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 0px #051e33;
+}
+.api_orng_sec {
+    background: #FFE6E7;
+    margin-bottom: 50px;
+}
+.api_orng_sec h3 {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 16px;
+    line-height: 40px;
+}
+.api_orng_sec .col-lg-8 {
+    padding: 40px 10px 40px 70px;
+}
+.api_orng_sec .col-lg-8 h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 16px;
+    line-height: 40px;
+}
+.api_orng_sec .col-lg-8 p {
+    color: #000 !important;
+    font-size: 15px;
+}
+.api_orng_sec .col-lg-4 img {
+    width: 90%;
+    position: relative;
+    bottom: -35px;
+}
+.two_steps_sec .tbox {
+    background: #FBFCFF;
+    border: 1px dashed #B3BEDF;
+    padding: 30px;
+    min-height: 385px;
+    margin-bottom: 20px;
+}
+.rstikyBtn {
+    position: fixed;
+    right: -3px;
+    top: 45%;
+    z-index: 2;
+}
+.two_steps_sec h4 {
+    font-size: 18px;
+}
+.tbox h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.api_pricing_btn{
+    background-image: url(../webimages/api_pricing_btn.png);
+    font-size: 18px;
+    font-weight: 600;
+    height: 45px;
+    min-width: 140px;
+    background-size: 100% 100%;
+}
+.api_pricing_btn img{width: 28px;}

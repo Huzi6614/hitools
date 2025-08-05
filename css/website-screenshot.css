@@ -1,0 +1,111 @@
+* {
+    background-color: #d1dceb !important;
+}
+#mob_screenshot {
+    background-image: url(../webimages/mobile-friendly.svg);
+    height: 563px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 69px;
+}
+#mob_screenshot div {
+    width: 238px;
+    margin: 0px auto;
+    overflow: auto;
+    height: 423px;
+    background: #fff;
+}
+#tab_screenshot {
+    background-image: url(../webimages/screenshot-tab.png);
+    height: 465px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 45px;
+    padding-left: 1px;
+}
+#tab_screenshot div {
+    width: 285px;
+    margin: 0px auto;
+    overflow: auto;
+    height: 359px;
+    background: #fff;
+}
+#desk_screenshot {
+    background-image: url(../webimages/screenshot-desk.svg);
+    height: 452px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#desk_screenshot div {
+    width: 518px;
+    margin: 0px auto;
+    overflow: auto;
+    height: 294px;
+    background: #fff;
+}
+.screen_view {
+    width: 48px;
+    height: 48px;
+}
+.screen_view .deskimg {
+    background-image: url(../webimages/screenshot-deskview.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.screen_view .deskimg.active {
+    background-image: url(../webimages/desktop-selected.svg);
+}
+.screen_view .tabimg {
+    background-image: url(../webimages/screenshot-tabview.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.screen_view .tabimg.active {
+    background-image: url(../webimages/screenshot-tab-selected.svg);
+}
+.screen_view .mobimg {
+    background-image: url(../webimages/screenshot-mobview.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.screen_view .mobimg.active {
+    background-image: url(../webimages/screenshot-mobile-selected.svg);
+}
+.screen_view .deskimg.active,
+.screen_view .tabimg.active,
+.screen_view .mobimg.active {
+    background-color: #1e70b9;
+}
+@media only screen and (max-width: 767px) {
+    #desk_screenshot {
+        width: 282px;
+        height: 246px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #desk_screenshot div {
+        width: 261px;
+        height: 150px;
+    }
+    #tab_screenshot {
+        width: 280px;
+        height: 366px;
+    }
+    #tab_screenshot div {
+        width: 210px;
+        height: 263px;
+    }
+    .screen_view {
+        width: 73px;
+    }
+    #screenshot-generator-form .jcc {
+        justify-content: center;
+    }
+}

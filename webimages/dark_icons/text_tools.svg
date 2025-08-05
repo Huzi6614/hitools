@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.569" height="31.093" viewBox="0 0 23.569 31.093">
+  <g id="d-text-content-tools" transform="translate(0.5 0.5)">
+    <path id="Path_1360" data-name="Path 1360" d="M59.295,64.593H41.024a2.149,2.149,0,0,1-2.149-2.149V36.649A2.149,2.149,0,0,1,41.024,34.5H53.658a2.146,2.146,0,0,1,1.519.629l5.638,5.638a2.146,2.146,0,0,1,.629,1.519V62.443A2.149,2.149,0,0,1,59.295,64.593Z" transform="translate(-38.875 -34.5)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1361" data-name="Path 1361" d="M55.49,37.885v5.374h5.374" transform="translate(-41.205 -34.975)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Group_1494" data-name="Group 1494" transform="translate(4.183 17.196)">
+      <line id="Line_34" data-name="Line 34" x2="14.203" transform="translate(0 6.448)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_35" data-name="Line 35" x2="14.203" transform="translate(0 3.224)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_36" data-name="Line 36" x2="8.83" transform="translate(5.374)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_37" data-name="Line 37" x2="2.381" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

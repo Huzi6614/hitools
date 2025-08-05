@@ -1,0 +1,26 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 8%;}
+.ip_res .box_w2{width: 36%;}
+.ip_res .box_w3{width: 24%;}
+.ip_res .box_w4{width: 32%;}
+.box_w3 .progress, .box_w4 .btn{height: 30px;}
+.box_w4 .dropdown-toggle::after{
+    border-top: none;
+    background-image: url(../webimages/ip_address1.svg);
+    width: 16px;
+    height: 10px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 8px;
+}
+.box_w4 .dropdown-menu{right: 0;}
+.internal_link{white-space: break-spaces;}
+.internal_link:hover{color: #fff;}
+.internal_link:active{background-color: #f8f9fa;}
+@media only screen and (max-width: 767px) {
+    .scroll_w{width: 750px;}
+}

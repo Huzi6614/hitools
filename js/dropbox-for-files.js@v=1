@@ -1,0 +1,75 @@
+$(".dropbox").click(function() {
+    options = {
+        // Required. Called when a user selects an item in the Chooser.
+        success: function(files) {
+            fetch_file_content(files);
+        },
+
+        // Optional. Called when the user closes the dialog without selecting a file
+        // and does not include any parameters.
+        cancel: function() {},
+
+        // Optional. "preview" (default) is a preview link to the document for sharing,
+        // "direct" is an expiring link to download the contents of the file. For more
+        // information about link types, see Link types below.
+        linkType: "preview", // or "direct"
+
+        // Optional. A value of false (default) limits selection to a single file, while
+        // true enables multiple file selection.
+        multiselect: false, // or true
+
+        // Optional. This is a list of file extensions. If specified, the user will
+        // only be able to select files with these extensions. You may also specify
+        // file types, such as "video" or "images" in the list. For more information,
+        // see File types below. By default, all extensions are allowed.
+        extensions: [".txt", ".doc", ".docx", ".odt", ".pdf", ".rtf", ".tex"],
+
+        // Optional. A limit on the size of each file that may be selected, in bytes.
+        // If specified, the user will only be able to select files with size
+        // less than or equal to this limit.
+        // For the purposes of this option, folders have size zero.
+        sizeLimit: 1024 * 1024 * 5 // or any positive number
+    };
+    Dropbox.choose(options);
+});
+function fetch_file_content(file) {
+    $.ajax({
+        xhr: function() {
+            var xhr = new window.XMLHttpRequest();
+            xhr.upload.addEventListener("progress", function(evt) {
+                if (evt.lengthComputable) {
+                    var percentage = evt.loaded / evt.total;
+                    percentage = parseInt(percentage * 100);
+                    var Loader_text=Uploading+percentage+'%';
+                    if(percentage == 100){
+                        var Loader_text=Processing;
+                    }
+                    sst_loader(Loader_text,true);
+                }
+            }, false);
+            return xhr;
+        },
+        url: base_url + "get-dropbox-file-content/",
+        type: "post",
+        dataType: "json",
+        data: { files: file },
+        success: function(return_dropbox_data) {
+            sst_loader('',false);
+            if (return_dropbox_data.type == "success") {
+                if (typeof upload_section_hide != "undefined") {
+                    upload_section_hide();
+                }
+                $("#textbox,#textbox1").val(return_dropbox_data.msg);
+                count();
+            } else {
+                show_messages("Error", return_dropbox_data.msg);
+                if (typeof upload_section_show != "undefined") {
+                    upload_section_show();
+                }
+            }
+        }
+    }).fail(function(response) {
+        sst_loader('',false);
+        response.responseText = JSON.parse(response.responseText);
+    });
+}

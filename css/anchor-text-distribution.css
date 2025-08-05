@@ -1,0 +1,55 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ip_res_head{font-size: 16px !important;}
+.ip_res{font-size: 14px;}
+.ip_res .box_w1{width: 8%;}
+.ip_res .box_w2{width: 42%;}
+.ip_res .box_w3{width: 20%;}
+.ip_res .box_w4{width: 10%;position: relative;}
+.ip_res_media{
+    position: absolute;
+    width: 277px;
+    right: 8px;
+    z-index: 1;
+    display: none;
+    top: 90%;
+    box-shadow: 0px 0px 2px 1px #E3E7ED;
+    border-bottom: 3px solid #1E70B9;
+}
+.ip_res_media div:nth-child(even) {font-size: 14px;}
+[class*="dage_toggle"]{
+    background-image: url(../webimages/ip_address1.svg);
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    border: 1px solid #1E70B9;
+}
+.dage_rotate{transform: rotate(180deg);}
+.semrush_banner{
+    background-image: url(../webimages/semrush_banner.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 227px;
+    background-position: center;
+    background-size: contain;
+}
+.semrush_text .txt1{font-size: 24px;}
+.semrush_text .txt2{font-size: 16px;}
+.semrush_text a{
+    font-size: 16px;
+    height: 40px;
+    background:#EA5050;
+}
+@media only screen and (max-width: 767px) {
+    .ip_res .box_w1{width: 17%}
+    .ip_res .box_w2{width: 60%}
+    .ip_res .box_w4{width: 23%}
+    .ip_res .mdb{display: flex !important;}
+    .ip_res .mdn{display: none !important;}
+    .atd_mdb{display:block !important;}
+    .atd_w100{width: 100% !important;text-align: center !important;}
+    .semrush_text .txt1{font-size: 20px;}
+    .semrush_text .txt2, .semrush_text a{font-size: 14px;}
+}

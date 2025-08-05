@@ -1,0 +1,57 @@
+* {
+    background-color: #d1dceb !important;
+}
+.rgb_section{border:1.5px dashed #C9D3E2;min-height: 190px;}
+.rgb_opt div{width: 180px;}
+.rgb_opt .form-control{
+  height: 36px;
+  background-color: #F6F8FA;
+}
+.rgb_txt{
+  font-size: 13px;
+  color: #222;
+}
+.rgb_opt .form-control:focus{box-shadow: none;}
+.rgb_clr_box {
+  width: 82px;
+  height: 98px;
+  background-color: #7576FD;
+}
+.rgb_con .rgb_font{
+  font-size: 16px;
+  color: #222;
+  width: 60px;
+}
+.rgb_con .rgb_input{
+  width: 72px;
+  height: 26px;
+  font-size: 14px;
+}
+/*result*/
+@media only screen and (max-width: 767px) {
+  .rgb_opt div{width: 100%;}
+  .rgb_font span{display:none;}
+  .rgb_db{display: block !important;}
+  .rgb_con .rgb_input{
+    width: 100%;
+    margin-right: 0px !important;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .rgb_con .rgb_font{width: auto;}
+}
+#red .ui-slider-range-min,#red span{
+  background:red;
+  border-radius: 100px;
+  border: red;
+}
+#green .ui-slider-range-min,#green span{
+  background:green;
+  border-radius: 100px;
+  border: green;
+}
+#blue .ui-slider-range-min,#blue span{
+  background:blue;
+  border-radius: 100px;
+  border: blue;
+}

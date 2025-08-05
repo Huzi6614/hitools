@@ -1,0 +1,45 @@
+* {
+    background-color: #d1dceb !important;
+}
+.static-pages .w530{width: 530px;}
+.static-pages .enf_sty{color: #ea5050;font-size: 14px;}
+.static-pages .form-control:focus {
+	color: inherit; 
+	background-color: transparent; 
+	border-color: none; 
+	outline: 0;
+    box-shadow: none;
+}
+.static-pages .check_area input:checked ~ .checkmark {
+    background-color: transparent;
+}
+.social_login a{width: 260px;height: 60px;font-size: 16px;}
+.social_login .fb_bg{background:transparent;border: 1px solid #035CFE;color: #000;}
+.social_login .gmail_bg{background:transparent;border: 1px solid  #DD5144;color: #000;}
+.social_login .fb_bg:hover{background: #1FABFF;background-image: linear-gradient(#1FABFF, #035CFE);}
+.social_login .gmail_bg:hover{background: #DD5144;}
+.static-pages .check_area .checkmark:after {border-color: #000;}
+.sm_hover{display: none;}
+.social_login a:hover{color: #fff;}
+.social_login a:hover .sm_hover{display: inline-block;}
+.social_login a:hover .sm_dflt{display: none;}
+.min_w75{min-width:75px;}
+.authBtn {
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid #1E70B9;
+    color: #1E70B9;
+    margin-top: 20px;
+	height: 50px;
+}
+.authBtn:hover{
+	background-color:#1E70B9;
+	color: #fff;
+}
+@media only screen and (max-width: 767px) {
+	.static-pages .w530{width: 100%;}    
+	.min_w75 {min-width:46px;}
+}
+.clearfix{
+	clear: both;
+}

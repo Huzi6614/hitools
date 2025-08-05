@@ -1,0 +1,56 @@
+* {
+    background-color: #d1dceb !important;
+}
+.main_area_report .nav-link{
+    font-size: 14px;
+    color: #000;
+    min-width: 75px;
+}
+.main_area_report .nav-link.active,.main_area_report .nav-link:hover{background-color: #0162B8 !important;border:none;color:#fff;}
+.main_area_report .blog_img{
+    width: 100%;
+    /*width:470px;*/
+    /*height:250px;*/
+}
+.main_area_report .aurthor_img{
+    width:56px;
+    height:56px;
+    position: absolute;
+    right: 16px;
+    bottom: -28px;
+    border:2px solid #fff;
+}
+.main_area_report .position_r{position: relative;}
+.main_area_report .fs12{font-size: 12px;}
+.main_area_report .fs13{font-size: 13px;}
+.main_area_report .fs16{font-size: 16px;line-height: normal;}
+.main_area_report .clr0162b8{color: #0162B8;}
+.main_area_report .clr505050{color: #505050;}
+.post_pagination{
+    background: #0162B8;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+.post_pagination:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.bcat_btn{
+    height: 24px;
+    background:#E3E7ED;
+    border-radius: 15px;
+    padding: 10px;
+}
+.bcat_btn:hover{text-decoration: none;}
+.bm_info a, .bm_info span{color: #EC220F;font-weight: 400;}
+.description_area .b_link{background-color: #0162B8;width: 170px;height: 40px;}
+@media only screen and (max-width: 767px) {
+    .tab-content .description_area{padding:25px 10px 10px !important;}
+    .main_area_report .aurthor_img{right: 7px;}
+}
+.b_t_h{height: 45px;overflow: hidden;}
+.b_d_h{min-height: 70px;}
+/*.desk_search{top:55px}*/

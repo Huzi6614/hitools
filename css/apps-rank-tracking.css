@@ -1,0 +1,15 @@
+* {
+    background-color: #d1dceb !important;
+}
+.app_rank_btn{
+    width: 90px;
+    height: 40px;
+    background-color: #1E70B9;
+    font-size: 14px;
+}
+.app_rank .fs16{font-size: 16px;}
+.app_rank .fs14{font-size: 14px;}
+.app_rank img{width:53px;height:53px;}
+@media only screen and (max-width: 767px) {
+    .scroll_w{width: 680px;}
+}

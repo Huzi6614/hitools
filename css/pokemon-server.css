@@ -1,0 +1,9 @@
+* {
+    background-color: #d1dceb !important;
+}
+.pokemon .topspan{
+    line-height: 24px !important;
+    margin-top: 43px;
+}
+.pokemon .topspan strong{color: #ea5050 !important;}
+.pokemon .topspan div{color: #000;font-size: 13px;}

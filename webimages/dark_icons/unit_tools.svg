@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23">
+  <g id="d-unit-converter-tools" transform="translate(0.5 0.5)">
+    <rect id="Rectangle_363" data-name="Rectangle 363" width="18" height="22" rx="2" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1394" data-name="Path 1394" d="M1.5,0H12.729a1.5,1.5,0,0,1,1.5,1.5v.771a1.5,1.5,0,0,1-1.5,1.5H1.5A1.5,1.5,0,0,1,0,2.271V1.5A1.5,1.5,0,0,1,1.5,0Z" transform="translate(1.831 2.331)" fill="#2f3133" stroke="#fff" stroke-width="1"/>
+    <g id="Group_1503" data-name="Group 1503" transform="translate(1.831 7.988)">
+      <rect id="Rectangle_365" data-name="Rectangle 365" width="3.143" height="3.143" rx="1" transform="translate(0)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_366" data-name="Rectangle 366" width="3.143" height="3.143" rx="1" transform="translate(11.086)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_367" data-name="Rectangle 367" width="3.143" height="3.143" rx="1" transform="translate(5.543)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_1504" data-name="Group 1504" transform="translate(1.746 12.446)">
+      <rect id="Rectangle_368" data-name="Rectangle 368" width="3" height="3" rx="1" transform="translate(0)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_369" data-name="Rectangle 369" width="3.143" height="7.857" rx="1" transform="translate(11.171 0.257)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_370" data-name="Rectangle 370" width="3.143" height="3.143" rx="1" transform="translate(5.63 0.257)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_371" data-name="Rectangle 371" width="3.143" height="3.143" rx="1" transform="translate(0.086 4.971)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_372" data-name="Rectangle 372" width="3.143" height="3.143" rx="1" transform="translate(5.63 4.971)" fill="#2f3133" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

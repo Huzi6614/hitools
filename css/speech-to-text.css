@@ -1,0 +1,130 @@
+* {
+    background-color: #d1dceb !important;
+}
+
+.f18{
+    font-size: 18px;
+}
+.f50{
+    font-size: 50px;
+}
+
+.recordOuter{
+    padding: 70px;;
+}
+.txt-start-record{
+    font-size: 14px;
+    font-weight: 600;
+}
+.speaking_lang{
+    min-width: 32%;
+    height: 31px;
+    background: white;
+    border: 1px solid #d3d3d3;
+    font-weight: 600;
+}
+.startRec{
+    cursor: pointer;
+}
+.start-record-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p_item{
+    background:#F6F8FA;
+    margin-left: 8px;
+    border: 1px solid #E3E7ED;
+    font-weight: 500;
+    font-size: 14px;
+    height: 31px;
+    cursor: pointer;
+    padding: 0 3px;
+}
+#result{
+    height: 310px;
+    overflow:auto;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.p_item:hover{
+    /* color:white;
+    background: #1E70B9; */
+    background-color: #dadbdb;
+}
+.p_item:hover img{
+    /* filter: invert(1); */
+}
+.spt_actionBtn{
+    padding: 0 7px;
+    width: 93%;
+}
+.spt_copy{    
+    padding-right: 6px;
+    width: 16%;
+}
+.down_icon{
+    width: 22%;
+    padding-right: 8px;
+}
+#result {
+    padding: 0px 15px;
+    border: none;
+}
+.start_stop_recording{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#F6F8FA;
+    border: 1px solid #E3E7ED;
+    border-radius: 7px;
+    padding: 8px 20px;
+}
+
+#ss_recording{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.status_icon{
+    margin-right: 8px;
+}
+.play_icon{
+    width: 13px;
+    height: 13px;
+    background: white;
+    display: inline-block;
+}
+.dir_rtl{
+    text-align: right !important;
+}
+
+.puased_icon {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 14px solid white;
+    border-bottom: 8px solid transparent;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.recording{color: #DB2A2A;}
+.btn_puased{ background-color: #39C281 !important; border: 0 !important;}
+@media only screen and (max-width: 767px){
+    .recordOuter{padding: 0px;}
+    #ss_recording{font-size: 11px;}
+    #download-text,#copy-text{display: none;}
+    .down_icon,.spt_copy{padding:0;width: 71%;}
+}

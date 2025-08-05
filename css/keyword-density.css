@@ -1,0 +1,75 @@
+* {
+    background-color: #d1dceb !important;
+}
+.key_den_tab .nav-link{
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #E3E7ED !important;
+    color: #000;
+    font-size: 16px;
+}
+.key_den_tab .nav-link.active{
+    border: none !important;
+    background: #1E70B9 !important;
+    color: #fff;
+}
+.key_den_tab .bg_000{background-color: #000;}
+.key_den_tab .check_area input:checked ~ .checkmark {
+    background-color: transparent;
+}
+.key_den_tab .check_area .checkmark:after {border-color: #000;}
+.kdc_fs18{font-size: 18px;}
+.key_box1{width: 44%;}
+.key_box2{width: 28%;}
+.kdc_fs16{font-size: 16px;}
+.kdc_brn{border-width: 0px 1px;}
+.key_box1 div.fw_600,.key_box2 div.fw_600{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.kdc_span1{color: #808080;}
+.kdc_span2{color: #EA5050;}
+.kdc_span3{color: #65C0E1;}
+.kdc_span4{color: #3D763D;}
+.kdc_span5{color: #F7C664;}
+.kdc_span6{color: #515151;}
+.kdc_span7{color: #222;font-size: 12px;}
+.ip_res_head {font-size: 15px;}
+.ip_res {font-size: 14px;}
+.kdc_pills .nav-pills .nav-link.active{background-color: #EA5050;color: #fff;}
+.kdc_pills .nav-pills .nav-link{
+    border-bottom: 1px solid #E3E7ED;
+    font-size: 16px;
+    color: #040404;
+}
+.kdc_bg{background-color: #DEE3E8;}
+.kdc_bg .border1{border-color: #D7DDE2;}
+.semrush_banner{
+    background-image: url(../webimages/semrush_banner.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 227px;
+    background-position: center;
+    background-size: contain;
+}
+.semrush_text .txt1{font-size: 24px;}
+.semrush_text .txt2{font-size: 16px;}
+.semrush_text a{
+    font-size: 16px;
+    height: 40px;
+    background:#EA5050;
+}
+@media only screen and (max-width: 767px) {
+    .key_box1, .key_box2{width: 100%;}
+    .kdc_brn{border-width: 1px 0px !important;}
+    .scroll_w {width: 540px;}
+    .kdc_pills .nav-pills .nav-link{font-size: 12px;}
+    .kdc_pills .nav-pills .nav-link{
+        border-bottom: none;
+        border-right: 1px solid #E3E7ED;
+    }
+    .semrush_text .txt1{font-size: 20px;}
+    .semrush_text .txt2, .semrush_text a{font-size: 14px;}
+}

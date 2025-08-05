@@ -1,0 +1,121 @@
+* {
+    background-color: #d1dceb !important;
+}
+.tool_bg{
+  background-image: url('../webimages/tool_bg.png');
+  min-height: 850px;
+  background-repeat: no-repeat;
+  background-color: #E8E9EB;
+  background-size: 100% 512px;
+}
+.tool_heading{font-size: 26px;}
+.tool_desc{font-size: 16px;max-width: 815px;}
+.tool_box{
+  max-width: 1200px;
+  border-radius: 8px;
+  min-height: 540px;
+  box-shadow: 0px 20px 200px 100px #00000014;
+}
+.tool_input{
+  background-color: #F5F6FB;
+  border-radius: 8px 0px 0px 8px;
+  padding: 2rem 2.5rem;
+  color: #000;
+  font-size: 16px;
+}
+.ti_heading{font-size: 16px;}
+.ew_txtarea::placeholder{font-size: 16px;color: #000;}
+.cus_scrollbar{height: 186px;}
+.ew_btn{
+  height: 46px;
+  background-color: #1E70B9;
+}
+.ew_select{
+  height: 36px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('../webimages/ew_select.png');
+  background-repeat: no-repeat;
+  background-position: 93% 7px;
+}
+.check_area{
+  position:relative;
+  cursor:pointer;
+  font-size: 15px;
+  color: #000 !important;
+}
+.check_area input{
+  position:absolute;
+  opacity:0;
+  cursor:pointer;
+  top:0px;
+  left:3px;
+}
+.checkmark{
+  position:absolute;
+  top:0;
+  left:0;
+  height:20px;
+  width:20px;
+  border:1px solid #1E70B9;
+}
+.check_area input:checked ~ .checkmark{border-color: #1E70B9;}
+.checkmark:after{content:"";position:absolute;display:none;}
+.check_area input:checked ~ .checkmark:after{display:block;}
+.check_area .checkmark:after{
+  left:6px;
+  top:3px;
+  width:6px;
+  height:11px;
+  border:solid #1E70B9;
+  border-width:0 2.5px 2.5px 0;
+  -webkit-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+.dot_circle .check_area input{
+  top:-2px;
+  left:2px;
+  z-index:1111;
+}
+.dot_circle .checkmark:after {
+  border-radius:50%;
+  background:#1E70B9;
+  border:none;
+  top:5px;
+  left:5px;
+  width:8px;
+  height:8px;
+}
+.tool_output{border-radius: 0px 8px 8px 0px;padding: 2rem 2.5rem;}
+.ew_essay_info{font-size: 14px;}
+.ew_options span{
+  width: 32px;
+  height: 32px;
+  background-color: #F2F5F7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+  cursor: pointer;
+}
+.ew_options span:hover{
+  background-color: #e3e4e5;
+}
+.ew_share{background-image: url('../webimages/pc_tryagain.svg');}
+.ew_download{background-image: url('../webimages/ar_download.svg');}
+.ew_copy{background-image: url('../webimages/ar_copy.svg');}
+.further_process a {
+  min-width: 130px;
+  height: 44px;
+  font-size: 16px;
+  color: #000;
+  background-color: #F5F6FB;
+}
+#textbox+img{cursor:pointer}
+.cus_scrollbar.res_txt{font-size: 16px;height: 450px;}
+
+@media only screen and (max-width: 767px) {
+  .tool_heading{font-size: 20px;}
+  .tool_input,.tool_output{border-radius: 8px;padding: .7rem 1rem;margin-bottom: 1rem;}
+  .further_process a {min-width: 106px;}
+}

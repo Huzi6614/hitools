@@ -1,0 +1,57 @@
+* {
+    background-color: #d1dceb !important;
+}
+.tool_bg{
+  background-image: url('../webimages/tool_bg.png');
+  min-height: 850px;
+  background-repeat: no-repeat;
+  background-color: #E8E9EB;
+  background-size: 100% 512px;
+}
+.tool_heading{font-size: 26px;}
+.tool_desc{font-size: 16px;max-width: 815px;}
+.tool_box{
+  max-width: 1200px;
+  border-radius: 8px;
+  min-height: 540px;
+  box-shadow: 0px 20px 200px 100px #00000014;
+}
+.tool_input{
+  background-color: #F5F6FB;
+  border-radius: 8px 0px 0px 8px;
+  padding: 2rem 2.5rem;
+  color: #000;
+  font-size: 16px;
+}
+.ti_heading{font-size: 16px;}
+.ew_txtarea::placeholder{font-size: 16px;color: #000;}
+.cus_scrollbar{height: 220px;font-size: 16px;}
+.ew_btn{
+  height: 46px;
+  background-color: #1E70B9;
+}
+.ew_select{
+  height: 36px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('../webimages/ew_select.png');
+  background-repeat: no-repeat;
+  background-position: 93% 7px;
+}
+.tool_output{border-radius: 0px 8px 8px 0px;padding: 2rem 2.5rem;}
+.ew_copy{
+  background-image: url('../webimages/ar_copy.svg');
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+}
+#textbox+img{cursor:pointer}
+.cus_scrollbar.res_txt{font-size: 16px;height: 476px;}
+.etg_numbering{width: 29px;height: 29px;}
+.etg_height{min-height: 60px;}
+@media only screen and (max-width: 767px) {
+  .tool_heading{font-size: 20px;}
+  .tool_input,.tool_output{border-radius: 8px;padding: .7rem 1rem;margin-bottom: 1rem;}
+}

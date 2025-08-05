@@ -1,0 +1,23 @@
+* {
+    background-color: #d1dceb !important;
+}
+.input_section textarea::placeholder {
+  color: #C9D0DB;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 100px;
+}
+.input_section textarea.cus_scrollbar{height:250px !important}
+#us-to-uk .res_inn_heading span{display: none;}
+@media only screen and (max-width: 767px){
+	#us-to-uk .res_inn_heading{
+		justify-content: space-between;
+		display: inline-flex;
+		width: 170px;
+		padding: 6px 10px;
+		background: #f6f8fa;
+		border: 1px solid #e3e7eb;
+	}
+	#us-to-uk .res_inn_heading span{display: block;}
+	#us-to-uk .mdn{display: none;}
+}

@@ -1,0 +1,23 @@
+* {
+    background-color: #d1dceb !important;
+}
+.upload_file{
+	width: 160px;
+	height: 50px;
+	background-color: #e3e7ed;
+	font-size: 15px;
+}
+.dropbox_gdrive {
+	min-width: 224px;
+	height: 50px;
+	font-size: 15px;
+}
+.dropbox_gdrive img{width: 24px;}
+.oued_res .cus_scrollbar{max-height: 300px;height: auto !important;}
+@media only screen and (max-width: 767px) {
+	.upload_file,.dropbox_gdrive{width: 252px;}
+	.jcc{justify-content: center !important;}
+}
+@media only screen and (max-width:640px){
+	.upload_file, .dropbox_gdrive {width: 100%;}
+}

@@ -1,0 +1,33 @@
+* {
+    background-color: #d1dceb !important;
+}
+.age_calc_sty{max-width: 600px;min-height: 400px;}
+.age_calc_sty select{height: 40px;}
+.age_calc_sty .w90{width: 90px;}
+.age_calc_sty .w150{width: 150px;}
+.age_calc_sty .w110{width: 110px;}
+.bg_e3e7ed{background-color: #e3e7ed;}
+.age_calc_brl{border-left: 1px solid #ced1d6;}
+.age_calc_res span{color: #1E70B9;margin: 0px 3px;}
+.in_share_btn .ac_copy {background-image: url(../webimages/ar_copy_hover.svg);}
+.in_share_btn span{
+    background-color: #1E70B9;
+    min-width: 40px;
+    height: 40px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+    background-size: 20px !important;
+}
+.in_share_btn .ac_print {background-image: url(../webimages/ar_print_hover.svg);}
+.ac_share_btn{background-color: #E3E7ED;font-size: 18px;}
+.ac_share_btn span{white-space: nowrap;}
+.ac_share_btn input{height: 40px;}
+.sub_headings img {position: relative;top:-2px;margin-right: 3px;}
+@media only screen and (max-width: 767px) {
+    .age_calc_sty .w90, .age_calc_sty .w150{width: 45.8%;}
+    .age_calc_sty .w110{width: 98%;}
+    .age_calc_sty .sub_headings{font-size: 16px;}
+    .age_calc_brl{border-top: 1px solid #ced1d6;border-left: none;}
+    .ac_share_btn{display: block !important;}
+}

@@ -1,0 +1,106 @@
+* {
+    background-color: #d1dceb !important;
+}
+.video_downloader{line-height: normal;}
+.video_downloader img{
+	width: 380px;
+    height: 188px;
+}
+#video_url_wrapper{ position: relative;}
+#video_url_wrapper input {
+    padding-left: 3.2rem;
+}
+#down_icon {
+    position: absolute;
+    left: 6px;
+    top: 9px;
+}
+
+#insta_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta_cate{
+    display: flex;
+    align-items: center;
+    background: #F3F5F7;
+    border: 1px solid #E3E7ED;
+    padding: 6px 10px;
+    margin-right: 0.7rem;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.insta_selected { 
+    background-image: linear-gradient(#F84242, #CC3434) !important;
+    color: white;
+}
+#slider_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    cursor: grab;
+}
+.downBtn-wrapper{
+    background: #EBEEF2;
+    padding: 9px 15px;
+    display: flex;
+    align-items: center; 
+    list-style: none;
+    color: black !important;
+    box-sizing: border-box;
+    height: 47px;
+    min-width: 235px;
+}
+.active_dwnloder{
+    border: 1px solid red;
+}
+#slider_wrapper a:hover,a:active,a:visited{
+    text-decoration: none;
+}
+
+.fn_scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+}
+.fn_scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 11px;
+    background-color: #767676;
+    /* background-color: #b3b0b0;; */
+}
+.fn_scrollbar::-webkit-scrollbar-track {
+    border-radius: 11px;
+    background-color: #E3E7ED;
+}
+#url.url_active{padding-left:10px;}
+#dwn_btn{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    display:none;
+    background-color: #1e70b9;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 7px;
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .insta_cate{padding: 4px 2px}
+    .input_section{
+        min-height: 200px;
+    }
+    .downBtn-wrapper{
+        min-width:100px;
+        padding:6px;
+        text-align:left;
+        line-height:16px;
+        font-weight:600;
+        padding-right:0px;
+    }
+}

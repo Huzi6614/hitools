@@ -1,0 +1,14 @@
+* {
+    background-color: #d1dceb !important;
+}
+#outBox{resize: none;}
+.checkmark{
+	width: 16px;
+	height: 16px;
+	border:2px solid #1E70B9 !important;
+	top: 2px;
+}
+.dot_circle .checkmark:after{
+	top: 2px;
+	left: 2px;
+}

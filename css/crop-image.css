@@ -1,0 +1,89 @@
+* {
+    background-color: #d1dceb !important;
+}
+.upload_btns{background-color: #F6F8FA;}
+.upload_option .label_upload {
+  width: 154px;
+  height: 30px;
+  font-size: 16px;
+  background-color: #000 !important;
+}
+.input_section .upload_option{
+  top: 57px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+}
+.input_section .drag_drop{
+  height: 320px;
+}
+.upload_option p.d1{
+  font-size: 14px;
+  color: #000;
+}
+.setting_area{
+	background-color: #E3E7ED;
+}
+.setting_area .head1{
+	font-size: 14px;
+	color: #222
+}
+.setting_area .crop_inp{
+	width: 96%;
+  height: 36px;
+  font-size: 13px;
+}
+.setting_area .crop_inp::placeholder {
+  font-weight: 600;
+  color: #222;
+}
+.aspect_sty{
+  width: 50px;
+  height: 36px;
+  font-size: 13px;
+  color: #838383 !important;
+}
+.aspect_sty1{min-width: 50px;width: auto;}
+.free_sty{
+  color: #fff !important;
+  background-color: #000;
+}
+.crop_opt{
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.reset_sty{
+  min-width: 82px;
+  height: 36px;
+  background: #EA5050; 
+}
+.crop_opt.ic1{background-image: url(../webimages/crop_img1.svg);}
+.crop_opt.ic2{background-image: url(../webimages/crop_img2.svg);}
+.crop_opt.ic3{background-image: url(../webimages/crop_img3.svg);}
+.crop_opt.ic4{background-image: url(../webimages/crop_img4.svg);}
+.crop_opt.ic5{background-image: url(../webimages/crop_img5.svg);}
+.crop_opt.ic6{background-image: url(../webimages/crop_img6.svg);}
+.crop_opt.ic7{background-image: url(../webimages/crop_img7.svg);}
+.crop_opt.ic8{background-image: url(../webimages/crop_img8.svg);}
+.crop_opt.ic9{background-image: url(../webimages/crop_img9.svg);}
+.crop_opt.ic10{background-image: url(../webimages/crop_img10.svg);}
+.input_bg{
+  position: absolute;
+  top: 28px;
+  right: 11px;
+}
+/*result*/
+.cus_w{width: 164px !important;}
+#res_img{width: 200px;height: 233px;}
+#res_img canvas{max-width: 100%;margin: 0px auto;}
+@media only screen and (max-width: 767px) {
+  .upload_option .label_upload span {display: block;}
+  .upload_btns.img_gdrive{width: 30px;background-position: center;}
+  .upload_btns.img_gdrive span{display: none;}
+}
+.img-container{
+  height: 423px;overflow: hidden;
+}
+#first_upload_section.input_section.f1f1f1_ld{background-color:#f1f1f1 !important}

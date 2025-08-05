@@ -1,0 +1,35 @@
+* {
+    background-color: #d1dceb !important;
+}
+#fake_names{
+    max-height: 340px;
+    font-size: 14px;
+    overflow: auto;
+}
+
+.fn_scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+}
+.fn_scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #767676;
+}
+.fn_scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #E3E7ED;
+}
+
+.f_name{
+    margin: 0.25rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 191px;
+}
+.ccg_btn{height: 30px;font-size: 14px;background-color: #F6F8FA;}
+.ccg_btn:hover{background-color: #000 !important;color: #fff;}
+.ccg_btn:hover .ccg_copy{background-image: url('../webimages/dark_icons/ccg_copyd.svg');}
+.ccg_copy{background-image: url('../webimages/ccg_copy.svg');width: 18px;height: 18px;}
+.ccg_btn_down{height: 34px;font-size: 15px;background-color: #000;width: 130px;justify-content: space-evenly;}
+.ccg_down{background-image: url('../webimages/dark_icons/ccg_downd.svg');width: 18px;height: 18px;}

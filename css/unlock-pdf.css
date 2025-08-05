@@ -1,0 +1,146 @@
+* {
+    background-color: #d1dceb !important;
+}
+.drag_area{
+	width: 460px;
+	border:1.5px dashed #CFD4DD;
+	box-shadow: 0px 0px 15px 1px #CFD4DD;
+}
+.upload_option p.d1{
+	color: #222;
+	font-size: 22px;
+	font-weight: 600;
+}
+.upload_option p.d2 span{
+	color: #B5BAC4;
+	font-size: 14px;
+	font-weight: 700;
+	position: relative;
+}
+.upload_option p.d2 span:before {
+    content: "";
+    position: absolute;
+    background: #E3E7ED;
+    width: 130px;
+    height: 1.5px;
+    top: 10px;
+    right: 32px;
+}
+.upload_option p.d2 span:after {
+    content: "";
+    position: absolute;
+    background: #E3E7ED;
+    width: 130px;
+    height: 1.5px;
+    top: 10px;
+    left: 32px;
+}
+.upload_option p.d3{
+	color: #B5BAC4;
+	font-size: 14px;
+	font-weight: 600;
+}
+.upload_btns.upload_file {background-image: url(../webimages/ar_upload_file.svg);}
+.upload_btns {background-color: #fff;}
+.upload_option .label_upload, .ptp_w{width: 154px !important;}
+.lock_pdf{background: #E4E9ED;font-size: 17px;}
+.lock_pdf input{
+	height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #222;
+	/*width: 38%;*/
+}
+.lock_pdf input::placeholder{
+	font-size: 14px;
+	font-weight: 600;
+	color: #222;
+}
+.lock_pdf .sub_text{font-weight: 600;}
+@media only screen and (max-width: 767px){
+	.drag_area{width: 100%;}
+	.upload_option p.d2 span:before, .upload_option p.d2 span:after{width: 85px;}
+	.lock_pdf{text-align: center !important;}
+    .mpdfn{display:none;}
+    .append_image_box .img_box .remove_image{display: block;}
+}
+.password_area .toggle-password {
+    max-width: 48px;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../webimages/password_str1.svg);
+    z-index: 3;
+}
+.pass_check_button{
+    background: #1E70B9 !important;
+    max-width: 60px;
+    color: #fff !important;
+    border: 1px solid #E3E7ED;
+    font-weight: 700;
+    background-clip: border-box;
+}
+.remove_image{
+    width: 25px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+	display: none;
+}
+.append_image_box .img_box{
+	position: relative;
+}
+.append_image_box .img_box:hover .remove_image{display: block;}
+#result_section .img_box {
+    width: 190px;
+}
+#result_section .prograss_bar_pdf {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #e3e7ed;
+    margin-top: 3px;
+}
+#result_section .prograss_bar_pdf.disable {
+    background: #e3e7ed;
+    pointer-events: none;
+}
+.PDFprogress_wrapper{
+    cursor: not-allowed;;
+}
+.pdf_progress_loader{
+    width:20px;
+    height:20px;
+}
+#result_section .name {
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    white-space: nowrap;
+}
+#result_section .bottom_bar {
+    position: absolute;
+    height: 4px;
+    background: #1e70b9;
+    bottom: 0px;
+    left: 0px;
+}
+#name_edit{
+    margin: 0 0 5px 3px;
+}
+.aca_add_btn{
+    position: relative;
+}
+
+.aca_files_count{
+    position: absolute;
+    left: -13px;
+    top: -5px;
+    /* display: none; */
+}

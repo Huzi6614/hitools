@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="26" viewBox="0 0 36 26">
+  <defs>
+    <clipPath id="clip-Fake_name_generator_light_mode">
+      <rect width="36" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="Fake_name_generator_light_mode" data-name="Fake name generator light mode" clip-path="url(#clip-Fake_name_generator_light_mode)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-118 -415.63)">
+      <path id="Path_7" data-name="Path 7" d="M151,415.63H121a3,3,0,0,0-3,3v20a3.009,3.009,0,0,0,3,3h30a3.009,3.009,0,0,0,3-3v-20A3,3,0,0,0,151,415.63Zm2,23a2.006,2.006,0,0,1-2,2H121a2.006,2.006,0,0,1-2-2v-20a2.006,2.006,0,0,1,2-2h30a2.006,2.006,0,0,1,2,2Z" fill="#1e70b9"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="34" height="24" rx="2" transform="translate(119 416.63)" fill="#fff"/>
+      <path id="Path_8" data-name="Path 8" d="M123.5,425.128h6a.5.5,0,1,0,0-1h-6a.5.5,0,0,0,0,1Z" fill="#1e70b9"/>
+      <path id="Path_9" data-name="Path 9" d="M133.5,428.128h-10a.5.5,0,0,0,0,1h10a.5.5,0,1,0,0-1Z" fill="#1e70b9"/>
+      <path id="Path_10" data-name="Path 10" d="M133.5,432.128h-10a.5.5,0,0,0,0,1h10a.5.5,0,1,0,0-1Z" fill="#1e70b9"/>
+      <path id="Path_11" data-name="Path 11" d="M145.347,429.3a3.89,3.89,0,1,0-4.134,0,5.725,5.725,0,0,0-3.654,5.328.5.5,0,1,0,1,0,4.72,4.72,0,1,1,9.441,0,.5.5,0,1,0,1,0A5.725,5.725,0,0,0,145.347,429.3Zm-4.957-3.282a2.89,2.89,0,1,1,2.89,2.889A2.893,2.893,0,0,1,140.39,426.018Z" fill="#1e70b9"/>
+    </g>
+  </g>
+</svg>

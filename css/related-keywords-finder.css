@@ -1,0 +1,35 @@
+* {
+    background-color: #d1dceb !important;
+}
+.rkf_inp span{
+	color: #1E70B9;
+    font-size: 22px;
+}
+.rkf_inp input{height: 41px;}
+.rkf_inp input::placeholder{color: #000;font-size: 13px;}
+.rkf_res .unique_key{font-size: 16px;background: #E3E7ED;}
+.rkf_res .head_bg{background: #F0F2F4;font-size: 16px;}
+.rkf_res .inn_rkf .row:nth-child(even){background: #f6f8fa;}
+.rkf_res .scroll_w .cus_scrollbar{overflow-y: auto;max-height: 300px;height: auto !important;}
+.rkf_res .btn_w{width: 175px;}
+.semrush_banner{
+    background-image: url(../webimages/semrush_banner.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 227px;
+    background-position: center;
+    background-size: contain;
+}
+.semrush_text .txt1{font-size: 24px;}
+.semrush_text .txt2{font-size: 16px;}
+.semrush_text a{
+    font-size: 16px;
+    height: 40px;
+    background:#EA5050;
+}
+@media only screen and (max-width: 767px) {
+	.rkf_res .mdb{display: block !important;}
+	.rkf_res .scroll_w{width: 500px;}
+	.semrush_text .txt1{font-size: 20px;}
+    .semrush_text .txt2, .semrush_text a{font-size: 14px;}
+}

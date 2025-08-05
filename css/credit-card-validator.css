@@ -1,0 +1,17 @@
+* {
+    background-color: #d1dceb !important;
+}
+.ccv_sty div:nth-child(even){color: #6B6B6B;}
+.ccv_info{
+    background-color: #4DCE70;
+    font-size: 20px;
+}
+.ccv_info_sty span{font-weight: 700;}
+.ccv_info_sty .fs18{font-size: 18px;}
+#credit-card-validator-form .alert img{width: 25px;}
+select#cardtype{
+	background-image: url(../webimages/ccv_img3.svg);
+	background-repeat: no-repeat;
+	text-indent: 40px;
+	background-position: 16px;
+}

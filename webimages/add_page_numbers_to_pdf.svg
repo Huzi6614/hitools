@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-ADD_Page_Numbers_To_PDF_Light_Mode_">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="ADD_Page_Numbers_To_PDF_Light_Mode_" data-name="ADD Page Numbers To PDF (Light Mode)" clip-path="url(#clip-ADD_Page_Numbers_To_PDF_Light_Mode_)">
+    <g id="Group_277" data-name="Group 277" transform="translate(-36 -486.967)">
+      <g id="Group_276" data-name="Group 276">
+        <g id="Group_269" data-name="Group 269">
+          <g id="Group_268" data-name="Group 268">
+            <g id="Group_262" data-name="Group 262">
+              <path id="Path_128" data-name="Path 128" d="M64.625,522.467H43.375a2.5,2.5,0,0,1-2.5-2.5v-30a2.5,2.5,0,0,1,2.5-2.5H58.069a2.5,2.5,0,0,1,1.767.732l6.557,6.556a2.5,2.5,0,0,1,.732,1.768v23.444A2.5,2.5,0,0,1,64.625,522.467Z" fill="#fff"/>
+              <path id="Path_129" data-name="Path 129" d="M64.625,522.967H43.375a3,3,0,0,1-3-3v-30a3,3,0,0,1,3-3H58.069a2.978,2.978,0,0,1,2.121.879l6.556,6.556a2.98,2.98,0,0,1,.879,2.121v23.444A3,3,0,0,1,64.625,522.967Zm-21.25-35a2,2,0,0,0-2,2v30a2,2,0,0,0,2,2h21.25a2,2,0,0,0,2-2V496.523a1.983,1.983,0,0,0-.586-1.414l-6.556-6.556a1.986,1.986,0,0,0-1.414-.586Z" fill="#1e70b9"/>
+            </g>
+            <g id="Group_263" data-name="Group 263">
+              <path id="Path_130" data-name="Path 130" d="M63.74,497.6H57.49a.5.5,0,0,1-.5-.5v-6.25a.5.5,0,0,1,1,0v5.75h5.75a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+            </g>
+            <g id="Group_267" data-name="Group 267">
+              <g id="Group_264" data-name="Group 264">
+                <path id="Path_131" data-name="Path 131" d="M62.259,518.967H45.74a.5.5,0,0,1,0-1H62.259a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+              </g>
+              <g id="Group_265" data-name="Group 265">
+                <path id="Path_132" data-name="Path 132" d="M62.259,515.217H51.99a.5.5,0,0,1,0-1H62.259a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+              </g>
+              <g id="Group_266" data-name="Group 266">
+                <path id="Path_133" data-name="Path 133" d="M48.509,515.217H45.74a.5.5,0,0,1,0-1h2.769a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Group_275" data-name="Group 275">
+          <g id="Group_270" data-name="Group 270">
+            <path id="Path_134" data-name="Path 134" d="M59.21,502.5H53.348a.5.5,0,0,1,0-1H59.21a.5.5,0,1,1,0,1Z" fill="#1e70b9"/>
+          </g>
+          <g id="Group_271" data-name="Group 271">
+            <path id="Path_135" data-name="Path 135" d="M59.21,506.409H53.348a.5.5,0,0,1,0-1H59.21a.5.5,0,1,1,0,1Z" fill="#1e70b9"/>
+          </g>
+          <g id="Group_272" data-name="Group 272">
+            <path id="Path_136" data-name="Path 136" d="M59.21,510.316H54a.5.5,0,0,1,0-1h5.21a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+          </g>
+          <g id="Group_273" data-name="Group 273">
+            <path id="Path_137" data-name="Path 137" d="M51.4,511.619h-2.6a.5.5,0,0,1-.321-.884l2.039-1.714c.2-.194.386-.377.386-.506a.8.8,0,1,0-1.6,0,.5.5,0,0,1-1,0,1.8,1.8,0,1,1,3.6,0,1.726,1.726,0,0,1-.688,1.222l-.111.109-.926.773H51.4a.5.5,0,0,1,0,1Z" fill="#1e70b9"/>
+          </g>
+          <g id="Group_274" data-name="Group 274">
+            <path id="Path_138" data-name="Path 138" d="M50.092,505.107a.5.5,0,0,1-.5-.5v-2.7l-.448.448a.5.5,0,1,1-.707-.707l1.3-1.3a.5.5,0,0,1,.853.353v3.907A.5.5,0,0,1,50.092,505.107Z" fill="#1e70b9"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+* {
+    background-color: #d1dceb !important;
+}
+#main_input, #main_output{height: 300px !important;}
+.stg_btn{
+    border: 1px solid #1E70B9;
+    min-width: 112px;
+    height: 40px;
+    background-color: #fff;
+    color: #1E70B9;
+    font-size: 15px;
+    font-weight: 600;
+}
+.stg_btn.active,.stg_btn:hover{background-color: #1E70B9;color: #fff;}
+.stg_btn:focus{background-color: #1E70B9;color: #fff;}
+#main_output{font-weight:100;font-size: revert}
+@media only screen and (max-width: 767px){.stg_btn{width:47%}}
+@media only screen and (max-width: 400px){.stg_btn{width:90%}}

@@ -1,0 +1,19 @@
+* {
+    background-color: #d1dceb !important;
+}
+.dc_sty .dc_sty_w{width: 65%;min-width: 415px;}
+.pfc_res {background: #202223;}
+#net_income::placeholder, #preferred_divd::placeholder, #share_outstanding::placeholder, .tool_inp_sty{
+    font-weight: normal;
+}
+.f16{font-size:16px;}
+.reset_btn {width:120px;height:46px;background-color: #EA5050;}
+.sub_headings {word-break: break-word;padding-left: 10px;padding-right: 10px;}
+@media only screen and (max-width: 767px) {
+    .dc_sty .dc_sty_w{min-width: 100%;}
+    .reset_btn {
+        width: 272px;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+}

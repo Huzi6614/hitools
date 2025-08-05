@@ -1,0 +1,132 @@
+* {
+    background-color: #d1dceb !important;
+}
+
+.f18{
+    font-size: 18px;
+}
+.f50{
+    font-size: 50px;
+}
+
+.bmi_guage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 12px;
+}
+
+.bmi_guage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 29px;
+    margin: 0 15px;
+    position: relative;
+    margin-top: 2.6rem;
+    padding: 0 0.3rem;
+}
+
+.bmi_guage .indicater{
+    position: absolute;
+    left: 8%;
+    top: -45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guage_result_text {font-size: 17px;}
+.bmi_guage_icon{
+    margin-bottom: 1.3rem;
+}
+.bmi_guage div {
+    flex: 1;
+    height: 37px;
+    margin: 7px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.underweight_bmi{
+    background-color: #53B9CE;
+    border-radius: 25px 0 0 25px;
+}
+.normal_bmi{ 
+    background-color: #7EBE51;
+}
+.overWeight_bmi{ 
+    background-color: #F9BB40
+}
+.obese_bmi{
+    background-color: #F94E58;
+    border-radius: 0 25px 25px 0;
+}
+
+.bmi_status_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.normal{background-color: #7EBE51;}
+.underweight{background-color: #53B9CE;}
+.overweight{background-color: #F9BB40;}
+.obese{background-color: #F94E58;}
+.bmi_status_text div{
+    padding-right: 23px;
+}
+.bmi_status_text div span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 0.2rem;
+    display: inline-block; 
+}
+
+
+.healthy_bmi_range{
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.healthy-weight{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+.healthy-weight-range{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.comparison_tabs.nav-tabs .nav-link{
+    width: 120px;
+    border:1px solid #E3E7ED !important;
+    background-color:#fff;
+    color: #222;
+}
+.comparison_tabs.nav-tabs .nav-link.active{
+    background-color: #1E70B9 !important;
+    color: #fff;
+    border-color:#1E70B9 !important;
+}
+.matched_content {background: #ffe4e4;}
+@media only screen and (max-width: 767px){
+    .comparison_mmt{margin-top: 10px;}
+    .bmi_status_text {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+        padding-left: 1.6rem;
+        place-items: center;
+    }
+    .indicater{display: none !important;}
+}

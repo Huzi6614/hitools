@@ -1,0 +1,30 @@
+* {
+    background-color: #d1dceb !important;
+}
+#robots-txt-form .fs18{font-size: 18px;}
+.new_input{
+	min-width: 36px;
+	height: 36px;
+	border:2px solid #1E70B9;
+}
+.new_input:after {
+	content: "+";
+    font-size: 28px;
+    color: #1E70B9;
+    line-height: 30px;
+}
+.new_input.change_it:after {
+    content: "-";
+    font-size: 42px;
+}
+#dir6 .new_input:after{content: "-";font-size: 42px;}
+#result_section .external.tool_btn{
+    color: #fff;
+    display: inline-block;
+    min-width: 150px;
+    padding: 11px 0;
+    margin-right: 10px;
+}
+#result_section .external.tool_btn:hover{
+    text-decoration: none;
+}

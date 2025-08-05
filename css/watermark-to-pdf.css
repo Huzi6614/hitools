@@ -1,0 +1,117 @@
+* {
+    background-color: #d1dceb !important;
+}
+.drag_area{
+	width: 460px;
+	border:1.5px dashed #CFD4DD;
+	box-shadow: 0px 0px 15px 1px #CFD4DD;
+}
+.upload_option p.d1{
+	color: #222;
+	font-size: 22px;
+	font-weight: 600;
+}
+.upload_option p.d2 span{
+	color: #B5BAC4;
+	font-size: 14px;
+	font-weight: 700;
+	position: relative;
+}
+.upload_option p.d2 span:before {
+    content: "";
+    position: absolute;
+    background: #E3E7ED;
+    width: 130px;
+    height: 1.5px;
+    top: 10px;
+    right: 32px;
+}
+.upload_option p.d2 span:after {
+    content: "";
+    position: absolute;
+    background: #E3E7ED;
+    width: 130px;
+    height: 1.5px;
+    top: 10px;
+    left: 32px;
+}
+.upload_option p.d3{
+	color: #B5BAC4;
+	font-size: 14px;
+	font-weight: 600;
+}
+.upload_option .label_upload, .ptp_w{width: 154px !important;}
+.watermark_pdf{background: #E3E7ED;}
+.watermark_head{font-size: 18px;font-weight: 600;}
+.pdf_tabs .nav-link{
+	height: 40px;
+	font-size: 16px;
+	font-weight: 600;
+	background: #fff;
+	color: #222;
+	border:1px solid #E9E9E9;
+}
+.pdf_tabs .nav-link.active, .pdf_tabs .nav-item.show .nav-link{
+	color: #fff;
+    background-color: #EA5050 !important;
+    border:none;
+}
+.watermark_head1{font-size: 14px;font-weight: 600;}
+.watermark_head1 span{font-size: 12px;}
+.pdf_position{position: relative;}
+.water_txt{height: 90px !important;}
+.water_limit{
+	position: absolute;
+	font-size: 13px;
+	font-weight: 600;
+	bottom: -15px;
+    right: 10px;
+}
+.water_h{height: 36px;}
+.water_clr input[type="color"]:not(.unsupported) {
+    background: none;
+    height: 29px;
+    width: 26px;
+    outline: none;
+}
+@media only screen and (max-width: 767px){
+	.drag_area{width: 100%;}
+	.upload_option p.d2 span:before, .upload_option p.d2 span:after{width: 85px;}
+    .mpdfn{display:none;}
+    .append_image_box .img_box .remove_image{display: block;}
+}
+.password_area .toggle-password {
+    max-width: 48px;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../webimages/password_str1.svg);
+    z-index: 3;
+}
+.pass_check_button{
+    background: #1E70B9 !important;
+    max-width: 60px;
+    color: #fff !important;
+    border: 1px solid #E3E7ED;
+    font-weight: 700;
+    background-clip: border-box;
+}
+.remove_image{
+    width: 25px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+	display: none;
+}
+.append_image_box .img_box{
+	position: relative;
+}
+.append_image_box .img_box:hover .remove_image{display: block;}
+#name_edit{
+    margin: 0 0 5px 3px;
+}
+.aca_res_txt2 img{
+    margin-bottom: 3px;
+}
