@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .bg_style {background-image: url('../webimages/dark_icons/ic_bg.png');}
 .input_area{border-color: #707070;}
 .ic_txtarea::placeholder,.ic_txtarea{color: #fff !important;}

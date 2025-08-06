@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .age_calc_sty{max-width: 600px;min-height: 400px;}
 .age_calc_sty select{height: 40px;}
 .age_calc_sty .w90{width: 90px;}

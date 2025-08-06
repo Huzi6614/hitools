@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .main_area_report{width: 1000px;}
 .main_area_report .clr707070{color: #707070;}
 .main_area_report .fs16{font-size: 16px;}

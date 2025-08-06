@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .ai_writer{height:310px;display:none;}
 .tox.tox-tinymce{margin-top:20px;}
 .toolArea{/*width:1120px;*/max-width: 1120px;box-shadow: 0px 20px 200px 100px #00000014;}

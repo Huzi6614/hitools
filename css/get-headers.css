@@ -1,8 +1,2 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .get_br .border1:nth-last-child(-n+2){border-bottom: 1px solid #e3e7ed !important;}

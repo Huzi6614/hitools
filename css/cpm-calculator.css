@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .cpmc_sty{width: 70%;min-width: 415px;}
 .pfc_res {background: #202223;}
 .pfc_res .pfc_blr{

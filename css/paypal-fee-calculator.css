@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .pf_calc_sty .form-control{height: 90px;font-size: 30px;}
 .pf_calc_sty .input-group-text{
     width: 90px;

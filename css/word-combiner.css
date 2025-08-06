@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .or_combi{font-size: 18px;}
 .input_section textarea::placeholder {color: #C9D0DB;}
 .demo_txt span{

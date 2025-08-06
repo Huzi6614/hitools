@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .main_area_report{width: 1100px;line-height: normal;}
 @media only screen and (max-width: 767px) {
     .main_area_report{width: 100%;}

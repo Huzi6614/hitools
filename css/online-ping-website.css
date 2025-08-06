@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 #online-ping-form .custom_sep{height: 50px;}
 .opwt_progress{height: 28px;}
 .opwt_res_head{font-size: 16px;}

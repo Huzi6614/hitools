@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .ssc_res .ssc1{font-size: 24px;line-height: 20px;}
 .ssc_res .ssc2{line-height: 14px;}
 .ssc_res{line-height: normal;}

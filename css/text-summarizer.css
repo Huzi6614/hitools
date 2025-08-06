@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .main_input, #main_output {height: 300px !important;}
 .clip_down .clipboard {background-image: url(../webimages/clip-board.svg);}
 .clip_down .download {background-image: url(../webimages/down-load.svg);}

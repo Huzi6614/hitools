@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .rgb_section{border:1.5px dashed #C9D3E2;min-height: 190px;}
 .rgb_opt div{width: 180px;}
 .rgb_opt .form-control{

@@ -1,10 +1,4 @@
-* {
-    /* Apply background color globally except to buttons and form controls */
-*:not(button):not(input):not(select):not(textarea):not(.btn):not([type="submit"]) {
-  background-color: #f7f7f7 !important;
-}
-!important;
-}
+
 .tool_inp_sty::placeholder{color: #222;font-weight: 600;}
 .ip_res_head{font-size: 16px !important;}
 .ip_res{font-size: 14px;font-weight: 600;}
